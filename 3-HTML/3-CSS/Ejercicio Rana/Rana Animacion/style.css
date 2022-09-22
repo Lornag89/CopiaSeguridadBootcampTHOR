@@ -1,0 +1,52 @@
+/* Ajustes Cursor */
+
+body {
+    cursor : url("../resources rana/mosca_2.png")
+}
+
+/* Damos Posicion relativa */
+img {
+    position: relative;
+}
+
+/* Ajuste Tamaño Lengua */
+.lengua {
+    width: 70px;
+    height: 70px;
+}
+
+/* Posicionamos Cabeza */
+.cabeza {
+    bottom: 493px;
+    z-index: 3;
+}
+
+/* Posicionamos Cuerpo */
+.cuerpo {
+    right: 818px;
+    z-index: 1;
+}
+
+/* Posicionamos Lengua */
+.lengua {
+    z-index: 2;
+    right: 400px;
+    bottom: 494px;
+    transform: rotate(-6deg);
+}
+
+/* Animacion */
+@keyframes lengua {
+    from {bottom: 494px; }
+    to {bottom: 435px; }
+}
+
+
+img.cabeza:hover + img.lengua{
+    animation-name: lengua;
+    animation-duration: 3s;
+    animation-delay: 0s;
+    animation-timing-function: cubic-bezier(.67, -0.1, .31, 1.09);
+    animation-iteration-count: 4;
+    animation-direction: alternate;
+}

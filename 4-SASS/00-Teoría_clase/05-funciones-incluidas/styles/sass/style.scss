@@ -1,0 +1,25 @@
+$my-color: hsl(51, 100%, 50%);
+
+
+button {
+  background-color: hsl($other-color);
+  border: none;
+  padding: 0.5rem 1rem;
+}
+
+button:hover {
+  //* Para OSCURECER un color cualquiera
+  background-color: darken($my-color, 3%);
+
+  //* Para ACLARAR un color cualquiera
+  background-color: lighten($my-color, 15%);
+
+  //* Para MEZCLAR DOS COLORES
+  background-color: mix($my-color, crimson, 50% );
+
+  //* Para hacer TRANSPARENTE un color
+  background-color: fade-out($my-color, 0.5);
+
+  //* Para CAMBIARLE EL TONO A UN COLOR
+  background-color: adjust-hue($my-color, 10);  
+}

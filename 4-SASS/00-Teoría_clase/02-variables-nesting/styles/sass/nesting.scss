@@ -1,0 +1,104 @@
+// Nesting en Sass
+
+// Nesting de selectores
+nav.main-menu {
+  background-color: tomato;
+
+  ul.main-menu__list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+    
+    li.main-menu__item {
+      padding: 0.5rem 1rem;    
+
+      // Nesting de pseudoclases
+      &:hover {
+        background-color: rgba(255,255,255,0.2);
+      }
+    }
+    
+
+    a.main-menu__link {
+      color: white;
+      text-decoration: none;    
+      // Nesting de pseudoelementos
+      &::before {
+        content: '👌 ';
+      }
+
+      &::after {
+        content: ' 🍇'
+      }
+
+      &::selection {
+        background: gold;
+        color: black;
+      }
+
+    }    
+  }  
+}
+
+
+
+// Nesting pseudoclases Versión CSS
+button {
+  background: red;
+
+}
+button:hover {
+    background: yellow;
+}
+
+// Nesting pseudoclases Versión SASS
+button {
+  background: red;
+
+  &:hover {
+    background: yellow;
+  }
+}
+
+/***************************/
+
+// Nesting de propiedades (No muy util...)
+
+h2 {
+  font: {
+    size: 4rem;
+    family: arial;
+    style: italic;
+    weight: 900;
+    variant: small-caps;
+  }
+  animation: {
+    name: saltar;
+    delay: 2s;
+    duration: 1s;
+    timing-function: ease;
+  }
+}
+
+/**************************************/
+// Nesting de media queries versión CSS
+h3 {
+  font-size: 3rem;
+}
+
+@media (max-width: 500px) {
+  h3 {
+    font-size: 1.5rem;
+  }
+}
+
+
+// Nesting de media queries versión SASS
+h3 {
+  color: crimson;
+
+  @media (max-width: 500px) {
+    color: lightseagreen;
+  }
+}

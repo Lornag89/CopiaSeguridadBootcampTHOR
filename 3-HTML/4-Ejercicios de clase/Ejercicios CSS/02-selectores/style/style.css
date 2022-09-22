@@ -1,0 +1,32 @@
+/* SELECTORES */
+
+/* selector global */
+
+/* * {
+  color: red;
+} */
+/* si yo quiero llamar a un id uso con el selector #id
+
+Si yo quiero llamar a una clase uso .+ la clase .clase */
+
+/* div.first.second {
+  background-color: red;
+  padding: 50px;
+} */
+
+/* div.first.second .interior .titulo {
+  background-color: blue;
+} */
+
+
+.first.second .interior > p {
+  color: red;
+  font-size: 24px;
+}
+
+
+/* .container + h1*/
+
+/* coge el primer( porque tiene el +) hermano directo, con la etiqueta h1 */
+
+/* .container ~ h1   */

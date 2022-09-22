@@ -1,0 +1,57 @@
+.contenedor{
+    background-color: bisque;
+    display: flex;
+    height: 100px;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.caja{
+
+    width: 50px;
+    height: 50px;
+    border: solid 1px red;
+    background-color: aqua;
+}
+
+.flex-start{
+    justify-content:start ;
+}
+
+.flex-center {
+    justify-content: center;
+
+}
+
+.flex-end{
+    justify-content: end;
+}
+
+.flex-between{
+    justify-content: space-between;
+}
+
+.flex-around{
+    justify-content: space-around;
+}
+
+.flex-evenly{
+    justify-content: space-evenly;
+}
+
+.n1{
+
+    order: 3;
+}
+
+.n2{
+    order: 1;
+}
+
+.n3{
+    order: 4;
+}
+
+.n4{
+order: 2;
+}

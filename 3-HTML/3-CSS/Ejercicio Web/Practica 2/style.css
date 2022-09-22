@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: #98F4BD;
+}
+
+/* Encabezamiento */
+header {
+
+    display: flex;
+    padding: 15px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F6AB50
+}
+
+nav a {
+
+    padding-right: 50px;
+    color: black;
+}
+
+nav a:hover {
+
+    color: aqua;
+}
+
+.logo {
+
+    display: flex;
+    align-items: center;
+
+}
+
+.logo img {
+
+    height: 100px;
+}
+
+h1.nombre_de_la_compañia {
+
+    margin-left: 25px;
+    color: crimson;
+}
+
+/* Botones Redes */
+li.facebook,
+li.twitter,
+li.instagram {
+
+    display: inline-block;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+/* Botones Ancla Navegador */
+a.ancla {
+
+    display: inline-block;
+    padding-top: 2px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    background-color: #F6AB50;
+    margin: 50px 150px 50px 150px;
+    color: black;
+    border: double black 5px;
+}
+
+div a:hover {
+
+    color: white;
+}
+
+/* Body */
+div.seccion1,
+div.seccion2 {
+
+    padding-top: 20px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    border-top: 5px;
+    border-right: 5px;
+    border-bottom: 5px;
+    border-left: 5px;
+    border-style: double;
+    border-color: black;
+    background-color: orange;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+/* Titulos */
+h2 {
+
+    margin: 150px 700px 50px 700px;
+    text-align: center;
+    padding-top: 2px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    background-color: #F6AB50;
+    color: black;
+    border: double black 5px;
+
+}
+
+/* Imagenes */
+div.contenedor_img {
+
+
+    overflow: hidden;
+}
+
+div.contenedor_media {
+
+    overflow: hidden;
+}
+
+div.imagen {
+
+    margin: 40px;
+    padding: 40px;
+    float: left;
+}
+
+/* video */
+div.contenedor_media {
+
+    overflow: hidden;
+}
+
+div.video {
+
+    margin: 40px;
+    padding: 40px;
+    float: left;
+}
+
+
+/* formulario */
+div.contenedor_formulario {
+
+    text-align: center;
+}
+
+label {
+
+    background-color: #F6AB50;
+}
+
+input,
+textarea {
+
+    background-color: #C4F3D7;
+}
+
+/* footer */
+
+p.derechos {
+
+    text-align: center;
+}
+
+div.arriba {
+    text-align: end;
+}
+
+div.volver {
+
+    text-align: end;
+    color: orange;
+    margin-right: 15px;
+}

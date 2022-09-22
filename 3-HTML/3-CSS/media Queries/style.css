@@ -1,0 +1,45 @@
+.contenedor{
+    background-color: antiquewhite;
+    padding: 50px;
+}
+
+.contenedor h1 {
+    color: red;
+    font-size: 20px;
+}
+
+.contenedor p {
+    color: blue;
+    font-size: 20px;
+}
+
+    
+    /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+.contenedor p{
+    background-color: aqua;
+    color: white;
+}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .contenedor h1{
+        color: white;
+        font-size: 25px;
+    }
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}

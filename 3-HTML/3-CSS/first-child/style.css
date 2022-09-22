@@ -1,0 +1,41 @@
+.contenedor{
+width: auto;
+    height: 300px;
+    background-color: aliceblue;
+}
+
+.contenedor h2:first-child{
+    background-color: blueviolet;
+}
+
+.contenedor p:first-of-type {
+    background-color: yellow;
+  }
+
+
+  .ul1 li:nth-child(2n){
+    background-color: brown;
+  }
+
+  .ul1 li:first-child{
+    background-color: aquamarine;
+  }
+
+  .ul1 li:last-child{
+    background-color: aquamarine;
+  }
+  
+  
+  .ul2 li:nth-child(odd){
+    background-color: brown;
+  }
+  
+  .ul2::before{
+  
+    content:"Lorem ipsum dolor sit amet";
+  }
+
+  .ul2::after{
+  
+    content:"Lorem ipsum dolor sit amet";
+  }

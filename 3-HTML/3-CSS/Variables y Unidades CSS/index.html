@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    /* archivo raiz */
+    :root {
+
+        /* lo nombramos con doble guion -- y finalmente lo invocamos con var() */
+        --fondo-button: #ea4c89;
+        --color-fuente: #6e6d7a;
+        --small-size: 19px;
+        --medium-siz: 24px;
+        --large-size: 32px;
+    }
+
+    div {
+        background-color: var(--fondo-button);
+        font-size: var(--small-size);
+    }
+
+    div h1 {
+        font-size: var(--large-size);
+        background-color: var(--color-fuente);
+    }
+</style>
+
+<body>
+    <div>
+        <h1>Prueba</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum, exercitationem, dolor molestias natus
+            necessitatibus numquam itaque expedita sapiente magnam sit repellat? Illo, asperiores corrupti. Quod fuga
+            voluptas impedit perspiciatis ducimus, possimus rem nisi animi ut tempore excepturi voluptate iste numquam
+            tenetur nemo. Nesciunt voluptates quis magnam nobis error maxime? Quos?</p>
+    </div>
+
+    <!--
+En CSS tenemos las unidades:
+
+px -> De las mas usadas ... 1px = 1px
+
+rem -> De las mas usadas ... 1rem = 16px
+
+em -> Poco usado
+
+-->
+
+</body>
+
+</html>

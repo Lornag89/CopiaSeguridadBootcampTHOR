@@ -1,0 +1,20 @@
+@charset "UTF-8";
+/*
+Aquí podemos hacer comentarios en bloque
+*/
+:root {
+  --main-color: gold;
+}
+
+body {
+  background: var(--main-color);
+}
+
+/* Las variables de sass no se compilan, solo se compila el valor que tienen, no el nombre */
+h1 {
+  color: crimson;
+  border: 2px solid crimson;
+  border: 4px solid green;
+}
+
+/*# sourceMappingURL=variables.css.map */

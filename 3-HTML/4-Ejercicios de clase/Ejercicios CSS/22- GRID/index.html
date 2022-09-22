@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<style>
+  .contenedor {
+    display: grid;
+    /* grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto ; */
+
+    grid-template-columns: repeat(15, 200px);
+    grid-template-rows: 200px 100px 70px ;
+
+
+  }
+
+  /* .c1 { */
+    /* grid-column: 1 / span 2; */
+/* 
+    grid-column: span 2;
+  }
+
+  .c2 {
+    grid-column: 1 / 4;
+  }
+
+  .c3 {
+    grid-column: 4 / 5;
+    grid-row: 2 / 4;
+  } */
+
+  .caja {
+    background-color: aquamarine;
+    /* width: 150px; */
+    /* height: 150px; */
+    border: 1px solid red;
+  }
+
+  /* https://css-tricks.com/snippets/css/complete-guide-grid/ */
+</style>
+<body>
+  <div class="contenedor">
+    <div class="caja c1">1</div>
+    <div class="caja c2">2</div>
+    <div class="caja c3">3</div>
+    <div class="caja c4">4</div>
+    <div class="caja c5">5</div>
+    <div class="caja c6">6</div>
+    <div class="caja c7">7</div>
+    <div class="caja c8">8</div>
+    <div class="caja c9">9</div>
+    <div class="caja c10">10</div>
+    <div class="caja c11">11</div>
+    <div class="caja c12">12</div>
+  </div>
+</body>
+</html>

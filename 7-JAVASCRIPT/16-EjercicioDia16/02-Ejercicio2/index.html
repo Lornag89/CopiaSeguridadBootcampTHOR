@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      href="https://ivan-luengo.com/wp-content/uploads/2020/03/cropped-favicon-ivan_luengo-32x32.png"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>To-do v3.0</title>
+  </head>
+  <body>
+    <div class="background w-full fixed -z-10 h-72"></div>
+
+    <div class="pt-20 w-96 mx-auto">
+      <h1 class="text-white text-4xl font-bold tracking-widest">TODO</h1>
+
+      <input
+        class="inputTask mt-4 px-4 py-3 w-full rounded focus:outline-2 focus:outline-emerald-300 shadow"
+        type="text"
+        placeholder="Crea un nueva tarea..."
+      />
+
+      <section class="toDoList mt-4">
+        <article
+          class="toDo bg-white hover:bg-slate-50 px-4 py-3 rounded flex items-center shadow-lg border"
+        >
+          <span
+            class="w-4 h-4 flex items-center justify-center rounded-full bg-gradient-to-r from-cyan-300 to-purple-500 mr-3 cursor-pointer"
+          >
+            <i
+              class="toDo__check text-white text-[8px] relative top-[1px] fa-solid fa-check"
+            ></i>
+          </span>
+          <span class="toDo__task">Pasear a las perras 🐕‍🦺</span>
+          <i
+            class="toDo__delete fa-solid fa-xmark ml-auto cursor-pointer hover:scale-125 transition-transform"
+          ></i>
+        </article>
+
+        <article
+          class="toDo bg-white hover:bg-slate-50 px-4 py-3 rounded flex items-center shadow-lg border"
+        >
+          <span
+            class="w-4 h-4 flex items-center justify-center rounded-full bg-gradient-to-br from-cyan-300 to-purple-500 mr-3 cursor-pointer"
+          >
+            <i
+              class="toDo__check text-white text-[8px] relative top-[1px] fa-solid fa-check"
+            ></i>
+          </span>
+          <span class="toDo__task">Pasear a las perras 🐕‍🦺</span>
+          <i
+            class="toDo__delete fa-solid fa-xmark ml-auto cursor-pointer hover:scale-125 transition-transform"
+          ></i>
+        </article>
+
+        <article
+          class="toDo bg-white hover:bg-slate-50 px-4 py-3 rounded flex items-center shadow-lg border"
+        >
+          <span
+            class="w-4 h-4 flex items-center justify-center rounded-full bg-gradient-to-r from-cyan-300 to-purple-500 mr-3 cursor-pointer"
+          >
+            <i
+              class="toDo__check text-white text-[8px] relative top-[1px] fa-solid fa-check"
+            ></i>
+          </span>
+          <span class="toDo__task">Pasear a las perras 🐕‍🦺</span>
+          <i
+            class="toDo__delete fa-solid fa-xmark ml-auto cursor-pointer hover:scale-125 transition-transform"
+          ></i>
+        </article>
+
+        <article
+          class="toDo bg-white hover:bg-slate-50 px-4 py-3 rounded flex items-center shadow-lg border"
+        >
+          <span
+            class="w-4 h-4 flex items-center justify-center rounded-full bg-gradient-to-r from-cyan-300 to-purple-500 mr-3 cursor-pointer"
+          >
+            <i
+              class="toDo__check text-white text-[8px] relative top-[1px] fa-solid fa-check"
+            ></i>
+          </span>
+          <span class="toDo__task">Pasear a las perras 🐕‍🦺</span>
+          <i
+            class="toDo__delete fa-solid fa-xmark ml-auto cursor-pointer hover:scale-125 transition-transform"
+          ></i>
+        </article>
+      </section>
+      <section
+        class="filters px-4 bg-white rounded py-1 border flex gap-2 mt-1"
+      >
+        <span class="items-left text-gray-400 text-xs mr-auto"
+          >4 pendientes</span
+        >
+        <span
+          class="filterAll text-gray-400 text-xs hover:text-purple-700 cursor-pointer"
+          >Todos</span
+        >
+        <span
+          class="filterActive text-gray-400 text-xs hover:text-purple-700 cursor-pointer"
+          >Activos</span
+        >
+        <span
+          class="filterCompleted text-gray-400 text-xs hover:text-purple-700"
+          >Completado</span
+        >
+        <span
+          class="clear text-gray-400 text-xs ml-auto hover:text-purple-700 cursor-pointer"
+          >Limpiar</span
+        >
+      </section>
+    </div>
+
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>

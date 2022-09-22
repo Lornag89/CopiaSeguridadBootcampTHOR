@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../.."
+		},
+		{
+			"path": "../../../../Downloads/prueba viernes"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Ejercicios CSS"
+	}
+}

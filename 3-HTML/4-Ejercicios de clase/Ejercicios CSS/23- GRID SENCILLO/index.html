@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<style>
+  body{
+    display: grid;
+    grid-template-areas: "pepe pepe pepe"
+                         "main main aside"
+                         "footer footer aside";
+    gap: 50px;
+  }
+
+  header {
+    background-color: aqua;
+    grid-area: pepe;
+  }
+
+  main  {
+    background-color: bisque;
+    grid-area: main;
+  }
+
+  aside {
+    background-color: blueviolet;
+    grid-area: aside;
+  }
+
+  footer {
+    background-color: aquamarine;
+    grid-area: footer;
+  }
+</style>
+<body>
+  <header>
+    HEADER
+  </header>
+  <main>
+    contenido del main
+  </main>
+  <aside>
+    menu lateral
+  </aside>
+  <footer>
+    texto footer
+  </footer>
+</body>
+</html>

@@ -1,0 +1,192 @@
+/* HEADER */
+
+.content-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo-image {
+  width: 78px;
+  height: 78px;
+}
+
+.menu .menu-element {
+  /* display: inline-block;
+  padding: 0 15px; */
+  list-style: none;
+}
+
+.menu {
+  display: flex;
+  gap: 15px;
+}
+
+
+/* CONTENIDO */
+
+.slider {
+  background-image: url(../resources/descarga.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.productos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 25px;
+}
+
+.productos article {
+  width: 200px;
+  height: 500px;
+}
+
+.productos figure {
+  margin: 0;
+  padding: 0;
+}
+
+.productos article img {
+  width: 200px;
+  height: auto;
+}
+
+
+/* ULTIMA SECCIÓN */
+
+.caja {
+  background-color: aqua;
+  border: 1px solid red;
+  width: 150px;
+  height: 150px;
+}
+
+.contenedor {
+  padding: 40px;
+  background-color: aliceblue;
+  border: 1px solid black;
+  display: flex;
+}
+
+.content-cajas {
+  display: flex;
+}
+
+/* HEADER */
+
+.content-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo-image {
+  width: 78px;
+  height: 78px;
+}
+
+.menu .menu-element {
+  /* display: inline-block;
+  padding: 0 15px; */
+  list-style: none;
+}
+
+.menu {
+  display: flex;
+  gap: 15px;
+}
+
+
+/* CONTENIDO */
+
+.slider {
+  background-image: url(../resources/descarga.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.productos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 25px;
+}
+
+.productos article {
+  width: 200px;
+  height: 500px;
+}
+
+.productos figure {
+  margin: 0;
+  padding: 0;
+}
+
+.productos article img {
+  width: 200px;
+  height: auto;
+}
+
+
+/* ULTIMA SECCIÓN */
+
+.caja {
+  position: relative;
+  background-color: aqua;
+  border: 1px solid red;
+  width: 150px;
+  height: 150px;
+}
+
+.caja p {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.caja.c2 p {
+  /* top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); */
+}
+
+.caja.c3 p {
+  top: 70%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+}
+
+.contenedor {
+  padding: 40px;
+  background-color: aliceblue;
+  border: 1px solid black;
+}
+
+.content-cajas {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  cur: ;
+}
+
+/* FOOTER */
+
+.pie-pagina {
+  /* display: flex; 
+  justify-content: center;*/
+  text-align: center;
+}
+
+

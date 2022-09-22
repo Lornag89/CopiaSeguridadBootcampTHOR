@@ -1,0 +1,167 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+
+    --fondo-color: #C8A765;
+    --fondo-logo-color: #c6716f;
+    --borde-color-logo: black;
+    --boton-borde-color: grey;
+    --boton-fondo-color: #6DB0BF;
+    --fuente-color: #fff;
+    --tamaño-small: 10px;
+    --tamaño-medio: 20px;
+    --tamaño-large: 40px;
+}
+
+
+.contenedor {
+
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 25px;
+    border-radius: 10px;
+    background-color: var(--fondo-color);
+    box-shadow: 5px 5px 50px;
+}
+
+/* Ajustes encabezado */
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 150px;
+    border-radius: 10px;
+    background-color: var(--fondo-color);
+    box-shadow: 5px 5px 50px;
+}
+
+.logo__img {
+
+    width: 150px;
+    height: 180px;
+    margin: 20px;
+    border-radius: 5px;
+    border: solid var(--borde-color-logo);
+    background-color: var(--fondo-logo-color);
+}
+
+a {
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+a:hover{
+
+    color: var(--fondo-logo-color);
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+/* botones menu */
+.menu__lista__texto__ancla {
+    padding: 5px 30px;
+    margin: 50px;
+    background: var(--boton-fondo-color);
+    color: var(--fuente-color);
+    border-radius: 100px;
+    border: outset var(--boton-borde-color);
+}
+
+
+/* START MAIN */
+
+/* SECCION ARTICULOS */
+
+.articulo--visible{
+
+    visibility: hidden;
+}
+
+.seccion-1 {
+
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    vertical-align: top;
+    margin: 50px;
+    padding-bottom: 50px;
+}
+
+.titulo-art {
+    display: inline-block;
+    font-size: var(--tamaño-large);
+    margin: 50px 0 0 50px
+}
+
+
+/* Ajuste tamaño imagenes */
+
+.seccion-1__fig__link {
+    padding: 0 100px;
+    margin: 25px;
+}
+
+.seccion-1__fig__link__img {
+    width: 300px;
+    height: auto;
+}
+
+
+/* seccion video */
+.seccion-2 {
+    align-items: center;
+    display: flex;
+    padding: 35px;
+    margin: 2em;
+}
+
+.seccion-2__texto {
+    margin: 4rem;
+    padding: 25px;
+    width: 50%;
+    height: 100px;
+    overflow: scroll;
+}
+
+
+
+/* seccion formulario y texto */
+.seccion-3 {
+    align-items: center;
+    padding: 50px;
+}
+
+label,
+input {
+    margin: 0 20px;
+}
+
+.seccion-3__texto {
+    text-align: center;
+    text-transform: capitalize;
+    padding-bottom: 25px;
+}
+
+div.arriba {
+    text-align: end;
+    padding-right: 35px;
+}
+
+div.volver {
+    text-align: end;
+    color: black;
+    margin-right: 20px;
+}
+
+.arriba__img {
+    width: 35px;
+    height: 35px;
+}

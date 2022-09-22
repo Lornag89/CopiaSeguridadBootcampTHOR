@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Blaka&family=Dancing+Script:wght@400;500;600&display=swap');
+
+
+html,
+body {
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+}
+
+.logo img{
+  width: 80px;
+  height: auto;
+}
+
+nav,
+.menu li {
+  display: inline-block;
+  float: right;
+  padding: 0 15px;
+}
+
+.cabecera {
+  background-color: lightgrey;
+  padding: 30px 70px;
+  text-align: center;
+}
+
+/* .cabecera p,
+.cabecera  img {
+  display: inline-block;
+} */
+
+.bloque {
+  width: 40%;
+  display: inline-block;
+}
+
+.cabecera p {
+  padding: 0 20px;
+}
+
+/* .cabecera p {
+  width: 400px;
+} */
+
+.cabecera img {
+  width: 200px;
+  height: auto;
+}
+
+.productos {
+  padding: 50px 70px;
+  text-align: center;
+}
+
+.productos .producto {
+  width: 200px;
+  display: inline-block;
+  padding: 0 10px;
+  text-decoration: none;
+  color: black;
+}
+
+.productos .image-product {
+  width: 100%;
+  height: auto;
+}
+
+.contacto {
+  text-align: center;
+  background-color: #9f9f9f;
+  
+}
+
+.contacto p,
+.contacto form {
+  display: inline-block;
+  width: 200px;
+  vertical-align: middle;
+}
+
+.contacto p {
+  font-family: 'Dancing Script', cursive;
+  margin-right: 40px;
+}
+
+.contacto form {
+  background-color: aliceblue;
+  padding: 50px;
+}
+
+footer {
+  text-align: center;
+}
+
+footer p {
+  font-size: 12px;
+}
+
+footer p span {
+  font-size: 18px;
+  font-weight: bold;
+  color: coral;
+  font-family: 'Blaka', cursive;
+}

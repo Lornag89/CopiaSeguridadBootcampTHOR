@@ -1,0 +1,32 @@
+.contenedor {
+    background-color: bisque;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding-top: 50px;
+}
+
+.caja {
+
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    border: solid 2px black;
+}
+
+.caja:hover {
+    background-color: blue;
+}
+
+p:hover {
+    color: white;
+}
+
+button:hover {
+    background-color: red;
+}
+
+.caja-mid:hover{
+    background-color: chartreuse;
+}

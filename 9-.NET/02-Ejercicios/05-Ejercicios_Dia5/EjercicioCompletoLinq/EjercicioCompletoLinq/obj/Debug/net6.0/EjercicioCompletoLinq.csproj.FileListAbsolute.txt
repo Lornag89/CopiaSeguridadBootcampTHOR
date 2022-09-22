@@ -1,0 +1,30 @@
+C:\Ejercicios Ares\EjercicioCompletoLinq\EjercicioCompletoLinq\bin\Debug\net6.0\EjercicioCompletoLinq.exe
+C:\Ejercicios Ares\EjercicioCompletoLinq\EjercicioCompletoLinq\bin\Debug\net6.0\EjercicioCompletoLinq.deps.json
+C:\Ejercicios Ares\EjercicioCompletoLinq\EjercicioCompletoLinq\bin\Debug\net6.0\EjercicioCompletoLinq.runtimeconfig.json
+C:\Ejercicios Ares\EjercicioCompletoLinq\EjercicioCompletoLinq\bin\Debug\net6.0\EjercicioCompletoLinq.dll
+C:\Ejercicios Ares\EjercicioCompletoLinq\EjercicioCompletoLinq\bin\Debug\net6.0\EjercicioCompletoLinq.pdb
+C:\Ejercicios Ares\EjercicioCompletoLinq\EjercicioCompletoLinq\obj\Debug\net6.0\EjercicioCompletoLinq.csproj.AssemblyReference.cache
+C:\Ejercicios Ares\EjercicioCompletoLinq\EjercicioCompletoLinq\obj\Debug\net6.0\EjercicioCompletoLinq.GeneratedMSBuildEditorConfig.editorconfig
+C:\Ejercicios Ares\EjercicioCompletoLinq\EjercicioCompletoLinq\obj\Debug\net6.0\EjercicioCompletoLinq.AssemblyInfoInputs.cache
+C:\Ejercicios Ares\EjercicioCompletoLinq\EjercicioCompletoLinq\obj\Debug\net6.0\EjercicioCompletoLinq.AssemblyInfo.cs
+C:\Ejercicios Ares\EjercicioCompletoLinq\EjercicioCompletoLinq\obj\Debug\net6.0\EjercicioCompletoLinq.csproj.CoreCompileInputs.cache
+C:\Ejercicios Ares\EjercicioCompletoLinq\EjercicioCompletoLinq\obj\Debug\net6.0\EjercicioCompletoLinq.dll
+C:\Ejercicios Ares\EjercicioCompletoLinq\EjercicioCompletoLinq\obj\Debug\net6.0\refint\EjercicioCompletoLinq.dll
+C:\Ejercicios Ares\EjercicioCompletoLinq\EjercicioCompletoLinq\obj\Debug\net6.0\EjercicioCompletoLinq.pdb
+C:\Ejercicios Ares\EjercicioCompletoLinq\EjercicioCompletoLinq\obj\Debug\net6.0\EjercicioCompletoLinq.genruntimeconfig.cache
+C:\Ejercicios Ares\EjercicioCompletoLinq\EjercicioCompletoLinq\obj\Debug\net6.0\ref\EjercicioCompletoLinq.dll
+C:\Users\PedroSanchezNaranjo\Downloads\EjercicioCompletoLinq\EjercicioCompletoLinq\bin\Debug\net6.0\EjercicioCompletoLinq.exe
+C:\Users\PedroSanchezNaranjo\Downloads\EjercicioCompletoLinq\EjercicioCompletoLinq\bin\Debug\net6.0\EjercicioCompletoLinq.deps.json
+C:\Users\PedroSanchezNaranjo\Downloads\EjercicioCompletoLinq\EjercicioCompletoLinq\bin\Debug\net6.0\EjercicioCompletoLinq.runtimeconfig.json
+C:\Users\PedroSanchezNaranjo\Downloads\EjercicioCompletoLinq\EjercicioCompletoLinq\bin\Debug\net6.0\EjercicioCompletoLinq.dll
+C:\Users\PedroSanchezNaranjo\Downloads\EjercicioCompletoLinq\EjercicioCompletoLinq\bin\Debug\net6.0\EjercicioCompletoLinq.pdb
+C:\Users\PedroSanchezNaranjo\Downloads\EjercicioCompletoLinq\EjercicioCompletoLinq\obj\Debug\net6.0\EjercicioCompletoLinq.csproj.AssemblyReference.cache
+C:\Users\PedroSanchezNaranjo\Downloads\EjercicioCompletoLinq\EjercicioCompletoLinq\obj\Debug\net6.0\EjercicioCompletoLinq.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PedroSanchezNaranjo\Downloads\EjercicioCompletoLinq\EjercicioCompletoLinq\obj\Debug\net6.0\EjercicioCompletoLinq.AssemblyInfoInputs.cache
+C:\Users\PedroSanchezNaranjo\Downloads\EjercicioCompletoLinq\EjercicioCompletoLinq\obj\Debug\net6.0\EjercicioCompletoLinq.AssemblyInfo.cs
+C:\Users\PedroSanchezNaranjo\Downloads\EjercicioCompletoLinq\EjercicioCompletoLinq\obj\Debug\net6.0\EjercicioCompletoLinq.csproj.CoreCompileInputs.cache
+C:\Users\PedroSanchezNaranjo\Downloads\EjercicioCompletoLinq\EjercicioCompletoLinq\obj\Debug\net6.0\EjercicioCompletoLinq.dll
+C:\Users\PedroSanchezNaranjo\Downloads\EjercicioCompletoLinq\EjercicioCompletoLinq\obj\Debug\net6.0\refint\EjercicioCompletoLinq.dll
+C:\Users\PedroSanchezNaranjo\Downloads\EjercicioCompletoLinq\EjercicioCompletoLinq\obj\Debug\net6.0\EjercicioCompletoLinq.pdb
+C:\Users\PedroSanchezNaranjo\Downloads\EjercicioCompletoLinq\EjercicioCompletoLinq\obj\Debug\net6.0\EjercicioCompletoLinq.genruntimeconfig.cache
+C:\Users\PedroSanchezNaranjo\Downloads\EjercicioCompletoLinq\EjercicioCompletoLinq\obj\Debug\net6.0\ref\EjercicioCompletoLinq.dll

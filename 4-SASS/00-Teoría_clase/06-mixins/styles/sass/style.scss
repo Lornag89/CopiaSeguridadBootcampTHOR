@@ -1,0 +1,61 @@
+@use './mixins' as *;
+
+//* Los mixins son bloques de código REUTILIZABLES que se pueden usar en cualquier parte del código.
+//* Los tenemos que llamar usando @include.
+
+.padre {
+  background-color: gold;
+  height: 300px;
+  @include al-centro;
+  @include border(7px, green);
+
+  @include tablet {
+    align-items: flex-start;
+  }
+  
+  .hijo {
+    height: 50px;
+    width: 50px;
+    background-color: crimson;
+    @include al-centro;
+    @include border(5px, lightseagreen);
+
+    @include tablet {
+      align-items: flex-end;
+    }
+
+    .nieto {
+      height: 20px;
+      width: 20px;
+      background-color: #fff;
+      @include border(2px);
+
+      @include tablet {
+        background-color: lightskyblue;
+      }
+    }
+  }
+  
+  
+}
+
+
+// @include mixins.tablet {
+//   .padre {
+//     align-items: flex-start;
+//   }
+// }
+
+
+// @include mixins.tablet {
+//   .padre .hijo {
+//     align-items: flex-end;
+//   }
+// }
+
+
+// @include mixins.tablet {
+//   .padre .hijo .nieto {
+//     background-color: lightskyblue;
+//   }
+// }

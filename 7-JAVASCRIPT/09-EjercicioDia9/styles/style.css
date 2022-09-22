@@ -1,0 +1,42 @@
+input.caja-texto {
+  display: block;
+  margin-block: 1rem;
+}
+
+
+
+.btn {
+  background: gold;
+  border: none;
+  padding: 0.5em 1em;
+  display: block;
+}
+
+.btn:focus {
+  outline: 2px solid lightskyblue;
+}
+
+.btn:active {
+  outline: 2px solid crimson;
+}
+
+.btn:hover {
+  background: rgb(195, 166, 2);
+}
+
+
+.jump {
+  animation-name: jumpAnimation;
+  animation-duration: 1s;
+  animation-iteration-count: 4;
+  animation-direction: alternate;
+  animation-timing-function: ease;
+  animation: jumpAnimation 0.3s 4 alternate ease;
+}
+
+
+@keyframes jumpAnimation {
+  to {
+    transform: translateY(-25px)
+  }
+}

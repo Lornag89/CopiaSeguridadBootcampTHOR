@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="https://ivan-luengo.com/wp-content/uploads/2020/03/cropped-favicon-ivan_luengo-32x32.png">
+
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="./styles/style.css">
+  
+  <title>Rejilla de bootstrap</title>
+</head>
+<body>
+  <h1>Rejilla de Bootstrap</h1>
+  <div class="container border border-warning border-2 mb-2">
+    <h2>.container</h2>
+  </div>
+  <div class="container-fluid border border-warning border-2 mb-2">
+    <h2>.container-fluid</h2>
+  </div>
+  <div class="container-sm border border-warning border-2 mb-2">
+    <h2>.container-sm</h2>
+  </div>
+  <div class="container-md border border-warning border-2 mb-2">
+    <h2>.container-md</h2>
+  </div>
+  <div class="container-lg border border-warning border-2 mb-2">
+    <h2>.container-lg</h2>
+  </div>
+  <div class="container-xl border border-warning border-2 mb-2">
+    <h2>.container-xl</h2>
+  </div>
+
+  <hr>
+
+  <div class="container border border-danger border-4">
+    <h2>¡IMPORTANTE! NORMAS:</h2>
+    <ol>
+      <li>NUNCA COMBINÉIS EN NINGÚN CASO LAS CLASES <code>.container</code>, <code>.row</code> y <code>.col</code> 
+        <ul>
+          <li><code>&lt;span class="container row"></code> -> ¡NO!</li>
+          <li><code>&lt;span class="row col"></code> -> ¡NO!</li>
+          <li><code>&lt;span class="container col"></code> -> ¡NO!</li>
+        </ul>
+      </li>
+      <li>NUNCA PONGÁIS CLASES QUE APORTEN ESTILO A NINGÚN <code>.container</code>, <code>.row</code> y <code>.col</code>
+        <ul>
+          <li><code>&lt;span class="container bg-warning"></code> -> ¡NO!</li>
+          <li><code>&lt;span class="row border border-2"></code> -> ¡NO!</li>
+          <li><code>&lt;span class="col shadow bg-info"></code> -> ¡NO!</li>
+        </ul>
+      </li>
+      <li>La forma correcta SIEMPRE será crear un div nuevo que tenga los estilos a parte o un div nuevo para hacer un nuevo row, etc.</li>
+    </ol>
+  </div>
+
+  <h2 class="mt-3">.row</h2>
+
+  <div class="bg-warning p-4 row">
+    <div class="col bg-danger text-center border border-dark">
+      .col
+    </div>
+    <div class="col bg-danger text-center border border-dark">
+      .col
+    </div>
+    <div class="col bg-danger text-center border border-dark">
+      .col
+    </div>
+    <div class="col bg-danger text-center border border-dark">
+      .col
+    </div>
+  </div>
+
+  <h2 class="mt-3">.row</h2>
+
+  <div class="bg-warning p-4 row">
+    <div class="col-2 bg-danger text-center border border-dark">
+      .col-2
+    </div>
+    <div class="col-3 bg-danger text-center border border-dark">
+      .col-3
+    </div>
+    <div class="col-3 bg-danger text-center border border-dark">
+      .col-3
+    </div>
+    <div class="col-4 bg-danger text-center border border-dark">
+      .col-4
+    </div>
+  </div>
+
+  <h2 class="mt-3">.row</h2>
+
+  <div class="bg-warning p-4 row">
+    <div class="col-3 bg-danger text-center border border-dark">
+      .col-3
+    </div>
+    <div class="col-3 bg-danger text-center border border-dark">
+      .col-3
+    </div>
+    <div class="col-3 bg-danger text-center border border-dark">
+      .col-3
+    </div>
+    <div class="col-3 bg-danger text-center border border-dark">
+      .col-3
+    </div>
+  </div>
+
+  <h2 class="mt-3">.row</h2>
+
+  <div class="bg-warning p-4 row">
+    <div class="col-3 bg-danger text-center border border-dark">
+      .col-3
+    </div>
+    <div class="col-auto bg-danger text-center border border-dark">
+      .col-auto se ajusta
+    </div>    
+  </div>
+
+  <hr>
+
+  <h2 class="mt-3">.row con responsive</h2>
+
+  <div class="bg-primary p-4 row">
+    <div class="col-6 col-sm-4 col-xl bg-warning text-center border border-dark">
+      .col-6 .col-sm-4 .col-xl
+    </div>
+    <div class="col-6 col-sm-4 col-xl bg-warning text-center border border-dark">
+      .col-6 .col-sm-4 .col-xl
+    </div>
+    <div class="col-6 col-sm-4 col-xl bg-warning text-center border border-dark">
+      .col-6 .col-sm-4 .col-xl
+    </div>
+    <div class="col-6 col-sm-12 col-xl bg-warning text-center border border-dark">
+      .col-6 .col-sm-12 .col-xl
+    </div>
+  </div>
+
+  <h2 class="mt-3">.row-cols .row-cols-sm-2 .row-cols-lg-3</h2>
+  <div class="bg-primary p-4 row row-cols-1 row-cols-sm-2 row-cols-lg-3">
+    <div class="bg-warning text-center border border-dark">
+      1
+    </div>
+    <div class="bg-warning text-center border border-dark">
+      2
+    </div>
+    <div class="bg-warning text-center border border-dark">
+      3
+    </div>
+    <div class="bg-warning text-center border border-dark">
+      4
+    </div>
+    <div class="bg-warning text-center border border-dark">
+      5
+    </div>
+    <div class="bg-warning text-center border border-dark">
+      6
+    </div>
+    <div class="bg-warning text-center border border-dark">
+      7
+    </div>
+    <div class="bg-warning text-center border border-dark">
+      8
+    </div>
+  </div>
+
+  <hr>
+
+  <h2 class="mt-3">Gutters (espaciado entre columnas) .row .g-5</h2>
+  <h2></h2>
+  <div class="bg-primary p-4 row row-cols-2 g-0">
+    <div class="bg-warning text-center border border-dark">
+      1
+    </div>
+    <div class="bg-warning text-center border border-dark">
+      2
+    </div>
+    <div class="bg-warning text-center border border-dark">
+      3
+    </div>
+    <div class="bg-warning text-center border border-dark">
+      4
+    </div>    
+  </div>
+
+  <div class="container my-5">
+    <section class="row g-4">
+      <article class="col">
+        <div class="bg-warning p-3">
+          <h2>Lorem, ipsum dolor.</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis nisi perspiciatis perferendis architecto maiores vero quam saepe nobis debitis reiciendis aspernatur, eum sint in aut quod accusantium adipisci repudiandae aperiam!</p>
+        </div>
+      </article>
+      <article class="col">
+        <div class="bg-success p-3">
+          <h2>Lorem, ipsum dolor.</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis nisi perspiciatis perferendis architecto maiores vero quam saepe nobis debitis reiciendis aspernatur, eum sint in aut quod accusantium adipisci repudiandae aperiam!</p>
+        </div>
+      </article>
+    </section>
+  </div>
+
+</body>
+</html>

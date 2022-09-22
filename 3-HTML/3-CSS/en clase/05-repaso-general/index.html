@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style/style.css">
+  <title>Document</title>
+</head>
+<!-- una ID en css se selecciona o se señala con # 
+ una clase se selecciona o señala con  -->
+<!-- el espacio nos indica que estamos seleccionando un elemento hijo -->
+
+<style>
+
+  html {
+    scroll-behavior: smooth;
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Roboto+Mono:ital@1&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+  h1 {
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    -webkit-box-shadow: 22px -5px 46px -5px rgba(129,255,76,0.53); 
+    box-shadow: 22px -5px 46px -5px rgba(129,255,76,0.53);
+  }
+</style>
+<body>
+<!-- cabcera -->
+
+<header>
+  <a class="enlace-logo" href=""><img class="logo" src="./resources/facebook.jpeg" alt="">NOMBRE EMPRESA</a>
+  
+
+  <h1>TEXTO DE PRUEBA </h1>
+  <nav class="menu">
+    <ul>
+      <li>
+        <a href="#pro">Productos</a>
+      </li>
+      <li>
+        <a href="#serv">Servicios</a>
+      </li>
+      <li>
+        <a href="#cont">Contacto</a>
+      </li>
+    </ul>
+  </nav>
+</header>
+<!-- contenido de la web -->
+<main>
+  <!-- sección productos  -->
+  <section id="pro" class="productos">
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box box-special"></div>
+  </section>
+<!-- sección servicios -->
+  <section id="serv" class="servicios">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt molestias ullam culpa quis laudantium iste ipsam omnis delectus magni beatae. Molestiae harum dicta, totam culpa ipsa quidem delectus <strong>laboriosam!</strong> Nam similique laboriosam a. Ut temporibus <span class="custom">veritatis exercitationem</span> enim quis incidunt ipsam ipsum sit et maiores consequuntur, quam pariatur id iure.</p>
+  </section>
+
+  <!-- sección contacto -->
+  <section id="cont" class="contacto">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d95780.46585453625!2d2.0701498132306773!3d41.39277549725226!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a49816718e30e5%3A0x44b0fb3d4f47660a!2sBarcelona!5e0!3m2!1ses!2ses!4v1654844196694!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </section>
+
+  <section class="tablas">
+
+    <table class="tablita">
+      <tr>
+        <td rowspan="2">Tabla avanzada</td>
+        <td colspan="2">Cabecera Multiples Columnas</td>
+      </tr>
+      <tr>
+        <tr>
+          <td>Primera Col. Cab. </td>
+          <td>Segunda Col. Cab</td>
+        </tr>
+        <tr>
+          <td>Fila 1</td>
+          <td>Fila 1 Columna 1</td>
+          <td>Fila 1 Columna 2</td>
+        </tr>
+        <tr>
+          <td>Fila 2 </td>
+          <td>Fila 2 Columna 1 </td>
+          <td>Fila 2 Columna 2</td>
+        </tr>
+      </tr>
+      <tr>
+          <td colspan="3">Pie de tabla</td>
+      </tr>
+    </table>
+  </section>
+</main>
+
+<!-- pie de página -->
+<footer>
+  <p class="txt-footer"><small>Página hecha en <span>CodeHouse</span></small></p>
+</footer>
+</body>
+</html>

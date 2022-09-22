@@ -1,0 +1,46 @@
+:root {
+--accent: gold;
+}
+
+/*? Tenemos dos maneras de trabajar en CSS */
+/** De forma semántica, en la que ponemos nombres de clases que nos indican qué tipo de contenido es  */
+
+.main-title {
+  font-family: arial;
+}
+
+.main-menu {
+  display: flex;
+  justify-content: center;  
+  gap: 1rem;
+}
+
+.main-menu__link {
+  color: crimson;
+  text-decoration: none;
+}
+
+/** Utilizando clases de utilidad */
+/** ESTO SERÍA UN FRAMEWORK EN TODA REGLA*/
+
+.text-center {
+  text-align: center;
+}
+.text-left {
+  text-align: left;
+}
+.text-right {
+  text-align: right;
+}
+
+.text-accent {
+  color: var(--accent);
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.underline {
+  text-decoration: underline;
+}

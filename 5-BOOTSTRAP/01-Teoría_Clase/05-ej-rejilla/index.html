@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="https://ivan-luengo.com/wp-content/uploads/2020/03/cropped-favicon-ivan_luengo-32x32.png">
+
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous"> 
+  
+  <title>Ejercicio Rejilla Bootstrap</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Ejercicio Rejilla Bootstrap</h1>
+
+    <h2 class="mt-5">Solución rejilla .offset</h2>
+
+    <div class="row g-0 text-center">
+      <div class="col-6">
+        <div class="bg-info border border-2 border-dark">1</div>
+      </div>
+      <div class="col-3 offset-3">
+        <div class="bg-info border border-2 border-dark">2</div>
+      </div>
+      <div class="col-4">
+        <div class="bg-info border border-2 border-dark">3</div>
+      </div>
+      <div class="col-4 offset-3">
+        <div class="bg-info border border-2 border-dark">4</div>
+      </div>
+      <div class="col-2 offset-6">
+        <div class="bg-info border border-2 border-dark">5</div>
+      </div>
+      <div class="col-1 offset-5">
+        <div class="bg-info border border-2 border-dark">6</div>
+      </div>
+    </div>
+
+
+    <h2 class="mt-5">Solución con 1 solo .row</h2>
+    <div class="row g-0 text-center"> 
+
+      <!-- Azules -->
+      <div class="col-6 col-md-3">
+        <div class="bg-info border border-dark border-2">1</div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="bg-info border border-dark border-2">2</div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="bg-info border border-dark border-2">3</div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="bg-info border border-dark border-2">4</div>
+      </div>
+
+      <!-- Amarillas -->
+      <div class="col-12 col-md-6 col-lg">
+        <div class="bg-warning border border-dark border-2">1</div>
+      </div>
+      <div class="col-12 col-md-6 col-lg">
+        <div class="bg-warning border border-dark border-2">2</div>
+      </div>
+      <div class="col-12 col-md-6 col-lg">
+        <div class="bg-warning border border-dark border-2">3</div>
+      </div>
+      <div class="col-12 col-md-6 col-lg">
+        <div class="bg-warning border border-dark border-2">4</div>
+      </div>
+      <div class="col-12 col-md-6 col-lg">
+        <div class="bg-warning border border-dark border-2">5</div>
+      </div>
+      <div class="col-12 col-md-6 col-lg">
+        <div class="bg-warning border border-dark border-2">6</div>
+      </div>
+      <div class="col-12 col-md-6 col-lg">
+        <div class="bg-warning border border-dark border-2">7</div>
+      </div>
+      <div class="col-12 col-md-6 col-lg">
+        <div class="bg-warning border border-dark border-2">8</div>
+      </div>
+      <div class="col-12 col-md-6 col-lg">
+        <div class="bg-warning border border-dark border-2">9</div>
+      </div>
+      <div class="col-12 col-md-6 col-lg">
+        <div class="bg-warning border border-dark border-2">10</div>
+      </div>
+
+    </div>
+
+    <h2 class="mt-5">Otra posible solución con .row-cols</h2>
+
+
+    <div class="row row-cols-2 row-cols-md-4 g-0 text-center"> 
+      <!-- Azules -->
+      <div>
+        <div class="bg-info border border-dark border-2">1</div>
+      </div>
+      <div>
+        <div class="bg-info border border-dark border-2">2</div>
+      </div>
+      <div>
+        <div class="bg-info border border-dark border-2">3</div>
+      </div>
+      <div>
+        <div class="bg-info border border-dark border-2">4</div>
+      </div>
+    </div>
+
+    <div class="row row-cols-1 row-cols-md-2 g-0 text-center">
+      <!-- Amarillas -->
+      <div class="col-lg">
+        <div class="bg-warning border border-dark border-2">1</div>
+      </div>
+      <div class="col-lg">
+        <div class="bg-warning border border-dark border-2">2</div>
+      </div>
+      <div class="col-lg">
+        <div class="bg-warning border border-dark border-2">3</div>
+      </div>
+      <div class="col-lg">
+        <div class="bg-warning border border-dark border-2">4</div>
+      </div>
+      <div class="col-lg">
+        <div class="bg-warning border border-dark border-2">5</div>
+      </div>
+      <div class="col-lg">
+        <div class="bg-warning border border-dark border-2">6</div>
+      </div>
+      <div class="col-lg">
+        <div class="bg-warning border border-dark border-2">7</div>
+      </div>
+      <div class="col-lg">
+        <div class="bg-warning border border-dark border-2">8</div>
+      </div>
+      <div class="col-lg">
+        <div class="bg-warning border border-dark border-2">9</div>
+      </div>
+      <div class="col-lg">
+        <div class="bg-warning border border-dark border-2">10</div>
+      </div>
+
+    </div>
+    
+  </div>
+</body>
+</html>

@@ -1,0 +1,6 @@
+// Podemos crear un archivo _index.scss dentro de una carpeta y utilizar @forward para llamar a todos los archivos que queramos.
+// Después podemos usar directamente este archivo _index.scss con el @use y de una tacada nos cargaría todos los archivos Sass.
+
+@forward 'colors';
+@forward 'fuentes';
+@forward 'variables';

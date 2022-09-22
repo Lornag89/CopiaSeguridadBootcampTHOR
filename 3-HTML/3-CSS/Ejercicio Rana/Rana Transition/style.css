@@ -1,0 +1,39 @@
+/* Damos Posicion relativa */
+img {
+    position: relative;
+}
+
+/* Ajuste Tamaño Lengua */
+.lengua {
+    width: 70px;
+    height: 70px;
+}
+
+/* Posicionamos Cabeza */
+.cabeza {
+    bottom: 493px;
+    z-index: 3;
+}
+
+/* Posicionamos Cuerpo */
+.cuerpo {
+    right: 818px;
+    z-index: 1;
+}
+
+/* Posicionamos Lengua */
+.lengua {
+    z-index: 2;
+    right: 400px;
+    bottom: 494px;
+    transform: rotate(-8deg);
+    transition:  2s;
+}
+
+
+/* Transición */
+
+img.cabeza:hover+img.lengua {
+    bottom: 435px;
+
+}

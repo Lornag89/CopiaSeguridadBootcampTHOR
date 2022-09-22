@@ -1,0 +1,59 @@
+@use '../base/colors';
+@use '../base/variables';
+
+header {
+    background-color: colors.$dark-blue;
+    display: flex;
+    padding: variables.$padding 0px;
+
+    div.container {
+        display: flex;
+        align-items: center;
+        border: 3px solid purple;
+        
+        // Width, max-width, margin, van juntos siempre para centrar container
+        width: 80%;
+        max-width: 1100px;
+        margin: 0 auto;
+    }
+
+    figure.logo {
+        border: 2px solid white;
+        margin-right: 1rem;
+    }
+
+    nav.main-menu {
+        display: flex;
+        gap: 1rem;
+        margin-right: auto;
+        border: 2px solid yellow;
+
+        a{
+            color: white;
+            text-decoration: none;
+            margin-right: 1rem;
+
+            // &:last-child{
+            //     margin-right: 0;
+            // }
+            // &:not(:last-child){
+            //     margin-right: 1rem;
+            // }
+
+        }
+    }
+
+    form.search {
+        margin-left: auto;
+        
+        border: 2px solid pink;
+        
+        input{
+            padding: 0.5rem 1rem;
+        }
+
+        button{
+            background-color: colors.$yellow;
+        }
+    }
+}

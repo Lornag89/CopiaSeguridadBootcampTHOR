@@ -1,0 +1,19 @@
+git config --global user.name "Juan Rodriguez" --> setear name
+git config --global user.email "juanrodriguez@codehouse.academy" --> setear email
+git config --list 
+git init -> Inicializar repositorio en local
+git status -> Ver estado de cambios
+git diff -> Ver diferencias entre ficheros modificados
+git add * -> Añadir fichero a Stage
+git commit -m "mensaje" -> Crear commit con los ficheros en Stage
+git log -> Ver listado de commits de la rama
+git branch -> Ver en que rama estamos y listado de ramas
+git checkout nombre-rama -> activar la rama en la que queremos trabajar
+git branch nueva-rama -> Crear rama
+git checkout -b nueva-rama -> Crear rama e ir a la misma en un mismo comando
+git clone url-repo -> Clonar repo remoto existente
+git fecth -> Actualizar commits de repo remoto
+git pull -> Actualizar desde repo remoto, incluidos los ficheros
+git push -> Subir cambios a repo remoto
+git merge rama-con-cambio -> Hacer merge en la rama activa desde la rama rama-con-cambio
+

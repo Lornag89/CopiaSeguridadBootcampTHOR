@@ -1,0 +1,28 @@
+//* Los mixins los creamos con la palabra @mixin
+@mixin al-centro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+//* Podemos crear un mixin al que le pasamos valores
+//* Particularmente podemos darle unos valores por defecto por si no nos los pasaran
+
+@mixin border($ancho: 1px, $color: black) {
+  border: $ancho solid $color;  
+}
+
+@mixin horizontal-align($align) {
+  display: flex;
+  align-items: center;
+  justify-content: $align;
+}
+
+//* Podemos crear un mixin que luego, cuando lo llamemos le pasaremos estilos CSS nuestros.
+
+@mixin tablet {
+  @media (min-width: 500px) {
+    @content;
+  }
+}

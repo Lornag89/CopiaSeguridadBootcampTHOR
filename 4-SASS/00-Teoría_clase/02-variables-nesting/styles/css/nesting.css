@@ -1,0 +1,79 @@
+@charset "UTF-8";
+nav.main-menu {
+  background-color: tomato;
+}
+nav.main-menu ul.main-menu__list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+nav.main-menu ul.main-menu__list li.main-menu__item {
+  padding: 0.5rem 1rem;
+}
+nav.main-menu ul.main-menu__list li.main-menu__item:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+nav.main-menu ul.main-menu__list a.main-menu__link {
+  color: white;
+  text-decoration: none;
+}
+nav.main-menu ul.main-menu__list a.main-menu__link::before {
+  content: "👌 ";
+}
+nav.main-menu ul.main-menu__list a.main-menu__link::after {
+  content: " 🍇";
+}
+nav.main-menu ul.main-menu__list a.main-menu__link::selection {
+  background: gold;
+  color: black;
+}
+
+button {
+  background: red;
+}
+
+button:hover {
+  background: yellow;
+}
+
+button {
+  background: red;
+}
+button:hover {
+  background: yellow;
+}
+
+/***************************/
+h2 {
+  font-size: 4rem;
+  font-family: arial;
+  font-style: italic;
+  font-weight: 900;
+  font-variant: small-caps;
+  animation-name: saltar;
+  animation-delay: 2s;
+  animation-duration: 1s;
+  animation-timing-function: ease;
+}
+
+/**************************************/
+h3 {
+  font-size: 3rem;
+}
+
+@media (max-width: 500px) {
+  h3 {
+    font-size: 1.5rem;
+  }
+}
+h3 {
+  color: crimson;
+}
+@media (max-width: 500px) {
+  h3 {
+    color: lightseagreen;
+  }
+}
+
+/*# sourceMappingURL=nesting.css.map */

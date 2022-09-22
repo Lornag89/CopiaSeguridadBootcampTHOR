@@ -1,0 +1,99 @@
+@use '../base/fonts';
+@use '../base/colour';
+@use "../base/variable";
+@use "../base/mixin";
+
+body {
+    background-color: colour.$dark-blue;
+    max-width: variable.$web-width;
+}
+
+div.container {
+    height: 100vh;
+    @include mixin.center (center);
+
+    @media (max-width: 900px){
+        margin: 100px 0px;
+
+    }
+}
+
+section.card {
+    background-color: colour.$dark-blue-desatured;
+    width: 80%;
+    border-radius: 10px;
+    display: flex;
+    overflow: hidden;
+
+    @media (max-width: 900px){
+        flex-direction: column-reverse;
+        width: 60%;
+        height: 110%;
+        text-align: center;
+    }
+}
+
+// *LEFT-SIDE
+
+div.left-side {
+    flex: 1;
+
+    @media (max-width: 900px){
+        height: 100%;
+    }
+}
+
+h1.left-side__title {
+    display: inline-block;
+    @include mixin.inter7;
+    color: colour.$white;
+    font-size: fonts.$large;
+    margin: variable.$gap-medium;
+
+    span.purple {
+        color: colour.$light-purple;
+    }
+}
+
+p.left-side__text {
+    @include mixin.center (center);
+    color: colour.$semi-transparent-white;
+    @include mixin.inter4;
+    font-size: fonts.$medium;
+    margin: variable.$gap-small;
+    line-height: 40px;
+}
+
+div.left-side__bot {
+    @include mixin.center (space-around);
+    margin: variable.$gap-medium;
+    @media (max-width: 900px){
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+div.left-side__bot__box {
+    h4.number {
+        @include mixin.inter7;
+        color: colour.$white;
+    }
+
+    h4.area {
+        color: colour.$semi-transparent-white;
+        @include mixin.inter4;
+        text-transform: uppercase;
+        font-size: fonts.$small;
+    }
+}
+
+// *RIGHT SIDE
+div.right-side {
+    flex: 1;
+    background: colour.$light-purple center / cover url(../../assets/resources/image-header-desktop.jpg);
+background-blend-mode: multiply;
+
+@media (max-width: 900px){
+    width: 100%;
+}
+}

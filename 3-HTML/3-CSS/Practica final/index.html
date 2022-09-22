@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet">
+  <title>Practica Final HTML/CSS: Web Pizzeria</title>
+</head>
+<style>
+  /* https://freefrontend.com/css-animation-examples/ */
+  /* Variables */
+  /* breakpoint 
+    sm -> small size ==> 576px
+    md -> medium size ==> 768px
+    lg -> large size ==> 992px
+    xl -> extra large size ==> 1200px
+  */
+
+  /* Colores
+    background oscuro menu -> #212529
+    color dorado de botones y algunas letras #bc8c4c
+    color gris claro de algunos textos #adb5bd
+    color blanco #ffffff
+  */
+
+  /* Requisitos */
+
+  /* Flex o Grid,
+    cambiar el estado con hover,
+    usar sombras, 
+    usar fuentes externas,
+    transform en hover,
+    anclas con movimiento suave No solo en el menu,
+    media query
+     */
+</style>
+
+<body>
+  <!-- Encabezado -->
+  <header class="menu">
+
+    <!-- top-side_bar -->
+    <div class="top-menu">
+      <figure><img src="./resources/navbar-brand.svg" alt="Logo small size navegador" class="top-menu__logo"></figure>
+      <a href="#">
+        <h3><span class="top-menu__text-gold">CALL US:</span><span class="top-menu__text-grey">(123) 456 7800</span>
+        </h3>
+      </a>
+    </div>
+
+      <!-- Top Menu Link  -->
+    <div class="mid-menu">
+      <nav>
+        <ol class="mid-menu__nav-bar">
+          <li class="mid-menu__text"><a class="mid-menu__text__link" href="#about">About Us</a></li>
+          <li class="mid-menu__text"><a class="mid-menu__text__link" href="#service">Our Service</a></li>
+          <li class="mid-menu__text"><a class="mid-menu__text__link" href="#staff">Our Team</a></li>
+          <li class="mid-menu__text"><a class="mid-menu__text__link" href="#review">Testimonials</a></li>
+        </ol>
+      </nav>
+
+      <!-- Top Menu Button -->
+      <a class="first button" href="#">Components</a>
+    </div>
+
+    <!-- Top Menu Bottom Side -->
+    <div class="menu-bot">
+      <div class="menu-bot__box">
+        <figure><img src="./resources/logo.svg" alt="Logo large size principal" class="menu-bot__logo"></figure>
+        <h3 class="fresh">Welcome To Our Restaurant</h3>
+        <h1 class="fresh">Really Fresh & Tasty</h1>
+      </div>
+      <a class="button bottom" href="#">Book A Table</a>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="conteiner">
+
+    <!-- About Us Section -->
+    <section id="about" class="about-us">
+
+      <!-- About Us part 1-->
+      <div class="about-us__part-1">
+
+        <div class="article-1">
+          <article>
+            <figure><img src="./resources/about-1.jpg" alt="Foto About Us 1" class="about-us__img walking"></figure>
+          </article>
+          <article>
+            <figure><img src="./resources/about-2.jpg" alt="Foto About Us 2" class="about-us__img"></figure>
+          </article>
+        </div>
+
+        <div class="opening">
+          <h3 class=" opening__title title__text">Opening Times</h3>
+          <h2 class=" opening__title title__text">Working Times</h2>
+
+          <div class="opening__schedule">
+            <p><span class="day">Monday - Thursday:</span>
+              <span class="time">7:00 am - 12:00 pm</span>
+            </p>
+            <p><span class="day">Friday - Saturday:</span>
+              <span class="time">7:00 am - Midnight</span>
+            </p>
+            <p><span class="day">Saturday - Sunday:</span>
+              <span class="time">7:00 am - 12:00 pm</span>
+            </p>
+          </div>
+
+          <!--Booking Button -->
+          <a class="button schedule" href="#">Book a table</a>
+        </div>
+      </div>
+
+      <!-- About Us Part 2 -->
+      <div class="about-us__part-2">
+        <div class="article-2">
+          <article>
+            <figure><img src="./resources/about-3.jpg" alt="About Us 3 Photo" class="about-us__img candle"></figure>
+          </article>
+          <article>
+            <figure><img src="./resources/about-4.jpg" alt="About Us 4 Photo" class="about-us__img"></figure>
+          </article>
+        </div>
+
+        <div class="story">
+          <h3 class="story__title title__text">The Great Story</h3>
+          <h2 class="story__title title__text">Our Culinary Journey</h2>
+
+          <p class="opening__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus numquam ipsa
+            laborumdebitis accusantiumducimus facere assumenda inventore similique facilis!</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Specials Dishes Section -->
+    <section id="service" class="special">
+      <div class="special__position">
+
+        <!-- Section Title-->
+        <h3 class=" special__title title__text">Featured Food</h3>
+        <h2 class=" special__title title__text">Special Dishes</h2>
+
+        <!-- Section Content -->
+        <div class="conteiner-specials">
+
+          <!-- Specials part 1 -->
+          <div class="dish__section1">
+
+            <div class="dish__box">
+              <figure><img class="dish__img" src="./resources/dish-1.jpg" alt="Michelin Star Dish Avocado Toast">
+              </figure>
+              <div class="dish__content">i
+                <div class="dish__text">
+                  <h4 class="dish__name">Lorem, ipsum dolor.</h4>
+                  <p class="dish__price">$25</p>
+                </div>
+                <p class="dish__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta officia
+                  nesciunt, iure culpa facilis
+                  ab.</p>
+              </div>
+            </div>
+
+            <div class="dish__box box-position">
+              <figure><img class="dish__img" src="./resources/dish-3.jpg" alt="Michelin Star Dish Raddish Salad">
+              </figure>
+              <div class="dish__content">
+                <div class="dish__text">
+                  <h4 class="dish__name">Lorem, ipsum dolor.</h4>
+                  <p class="dish__price">$25</p>
+                </div>
+                <p class="dish__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta officia
+                  nesciunt, iure culpa facilis
+                  ab.</p>
+              </div>
+            </div>
+
+            <div class="dish__box box-position1">
+              <figure><img class="dish__img" src="./resources/dish-5.jpg" alt="Michelin Star Dish Mix-Salad"></figure>
+              <div class="dish__content">
+                <div class="dish__text">
+                  <h4 class="dish__name">Lorem, ipsum dolor.</h4>
+                  <p class="dish__price">$25</p>
+                </div>
+                <p class="dish__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta officia
+                  nesciunt, iure culpa facilis
+                  ab.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Specials Part 2 -->
+          <div class="dish__section2">
+
+            <div class="dish__box">
+              <figure><img class="dish__img" src="./resources/dish-2.jpg"
+                  alt=" Michelin Star Dish Toast Sour Cream Baby Spinach"></figure>
+              <div class="dish__content">
+                <div class="dish__text">
+                  <h4 class="dish__name">Lorem, ipsum dolor.</h4>
+                  <p class="dish__price">$25</p>
+                </div>
+                <p class="dish__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta officia
+                  nesciunt, iure culpa facilis
+                  ab.</p>
+              </div>
+            </div>
+
+            <div class="dish__box box-position">
+              <figure><img class="dish__img" src="./resources/dish-4.jpg" alt="Michelin Star Dish Avocado Salad Dish">
+              </figure>
+              <div class="dish__content">
+                <div class="dish__text">
+                  <h4 class="dish__name">Lorem, ipsum dolor.</h4>
+                  <p class="dish__price">$25</p>
+                </div>
+                <p class="dish__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta officia
+                  nesciunt, iure culpa facilis
+                  ab.</p>
+              </div>
+            </div>
+
+            <div class="dish__box box-position1">
+              <figure><img class="dish__img" src="./resources/dish-6.jpg" alt="Michelin Star Dish Vegetarian Pizza">
+              </figure>
+              <div class="dish__content">
+                <div class="dish__text">
+                  <h4 class="dish__name">Lorem, ipsum dolor.</h4>
+                  <p class="dish__price">$25</p>
+                </div>
+                <p class="dish__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta officia
+                  nesciunt, iure culpa facilis
+                  ab.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MAIN MENU -->
+    <section class="main-menu">
+
+      <div class="main-menu__filter">
+        <!-- Section Title -->
+        <div class="main-menu__box">
+          <h3 class=" main-menu__title title__text">Great Food</h3>
+          <h2 class="main-menu__title title__text">Main Menu</h2>
+        </div>
+
+        <!-- Section Content -->
+        <div class="main-menu__background2">
+
+          <div class="main-menu__position">
+            <!-- Main Section Part 1 -->
+            <div class="main-menu__part1">
+
+              <div class="main-menu__content">
+                <div class="main-menu__text">
+                  <h4 class="main-menu__name dish__name">Lorem, ipsum.</h4>
+                  <p class=" main-menu__price dish__price">$12</p>
+                </div>
+                <p class="main-menu__dish-description dish__description">Lorem ipsum dolor sit amet consectetur.</p>
+              </div>
+
+              <div class="main-menu__content">
+                <div class="main-menu__text">
+                  <h4 class="main-menu__name dish__name">Lorem, ipsum dolor.</h4>
+                  <p class=" main-menu__price dish__price">$32</p>
+                </div>
+                <p class="main-menu__dish-description dish__description">Lorem ipsum dolor sit amet consectetur,
+                  adipisicing
+                  elit.</p>
+              </div>
+
+              <div class="main-menu__content">
+                <div class="main-menu__text">
+                  <h4 class="main-menu__name dish__name">Lorem, ipsum dolor.</h4>
+                  <p class=" main-menu__price dish__price">$21</p>
+                </div>
+                <p class="main-menu__dish-description dish__description">Lorem ipsum dolor sit amet consectetur,
+                  adipisicing
+                  elit.</p>
+              </div>
+            </div>
+
+            <!-- Main Section Part 2 -->
+            <div class="main-menu__part2">
+
+              <div class="main-menu__content">
+                <div class="main-menu__text">
+                  <h4 class="main-menu__name dish__name">Lorem, ipsum dolor.</h4>
+                  <p class=" main-menu__price dish__price">$23</p>
+                </div>
+                <p class="main-menu__dish-description dish__description">Lorem ipsum dolor sit amet consectetur,
+                  adipisicing elit.</p>
+              </div>
+
+              <div class="main-menu__content">
+                <div class="main-menu__text">
+                  <h4 class="main-menu__name dish__name">Lorem, ipsum dolor</h4>
+                  <p class=" main-menu__price dish__price">$17</p>
+                </div>
+                <p class="main-menu__dish-description dish__description">Lorem ipsum dolor sit amet consectetur,
+                  adipisicing
+                  elit.</p>
+              </div>
+
+              <div class="main-menu__content">
+                <div class="main-menu__text">
+                  <h4 class="main-menu__name dish__name">Lorem, ipsum dolor</h4>
+                  <p class=" main-menu__price dish__price">$10</p>
+                </div>
+                <p class="main-menu__dish-description dish__description">Lorem ipsum dolor sit amet consectetur,
+                  adipisicing
+                  elit.</p>
+              </div>
+            </div>
+          </div>
+          <a href="" class="main-menu__button button">Book a table</a>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- OUR TEAM -->
+    <section id="staff" class="talented">
+
+      <!-- Title Section -->
+      <h3 class="talented__title title__text">Great team</h3>
+      <h2 class="talented__title title__text">Talented Chefs</h2>
+
+      <div class="talented__box">
+        <div class="talented__team">
+          <img class="talented__profile-img" src="./resources/chef-1.jpg" alt="Foto Perfil Chef">
+          <p class="chef-name">Brian Scott</p>
+          <p class="chef-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit modi quia quisquam
+            impedit?</p>
+          <ol class="talented__icon">
+            <li class="talented__link"><a href="https://es-es.facebook.com/"><img class="talented__redes icon"
+                  src="./resources/redes-1.png" alt="facebook logo"></a></li>
+            <li class="talented__link"><a href="https://twitter.com/?lang=es"><img class="talented__redes icon"
+                  src="./resources/redes-2.png" alt="twitter logo"></a></li>
+            <li class="talented__link"><a href="https://www.instagram.com/"><img class="talented__redes icon"
+                  src="./resources/redes-3.png" alt="insta logo"></a></li>
+            <li class="talented__link"><a href="https://www.google.es/"><img class="talented__redes icon"
+                  src="./resources/redes-4.png" alt="google plus logo"></a></li>
+          </ol>
+        </div>
+
+        <div class="talented__team">
+          <img class="talented__profile-img" src="./resources/chef-2.jpg" alt="Foto Perfil Chef">
+          <p class="chef-name">Edward Harris</p>
+          <p class="chef-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit modi quia quisquam
+            impedit?</p>
+          <ol class="talented__icon">
+            <li class="talented__link"><a href="https://es-es.facebook.com/"><img class="talented__redes icon"
+                  src="./resources/redes-1.png" alt="facebook logo"></a></li>
+            <li class="talented__link"><a href="https://twitter.com/?lang=es"><img class="talented__redes icon"
+                  src="./resources/redes-2.png" alt="twitter logo"></a></li>
+            <li class="talented__link"><a href="https://www.instagram.com/"><img class="talented__redes icon"
+                  src="./resources/redes-3.png" alt="insta logo"></a></li>
+            <li class="talented__link"><a href="https://www.google.es/"><img class="talented__redes icon"
+                  src="./resources/redes-4.png" alt="google plus logo"></a></li>
+          </ol>
+        </div>
+
+        <div class="talented__team">
+          <img class="talented__profile-img" src="./resources/chef-3.jpg" alt="Foto Perfil Chef">
+          <p class="chef-name">Richard Reb</p>
+          <p class="chef-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit modi quia quisquam
+            impedit?</p>
+          <ol class="talented__icon">
+            <li class="talented__link"><a href="https://es-es.facebook.com/"><img class="talented__redes icon"
+                  src="./resources/redes-1.png" alt="facebook logo"></a></li>
+            <li class="talented__link"><a href="https://twitter.com/?lang=es"><img class="talented__redes icon"
+                  src="./resources/redes-2.png" alt="twitter logo"></a></li>
+            <li class="talented__link"><a href="https://www.instagram.com/"><img class="talented__redes icon"
+                  src="./resources/redes-3.png" alt="insta logo"></a></li>
+            <li class="talented__link"><a href="https://www.google.es/"><img class="talented__redes icon"
+                  src="./resources/redes-4.png" alt="google plus logo"></a></li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <!--Testmonials Section -->
+    <section id="review" class="testimonial">
+
+      <!-- Section Title -->
+      <h3 class="testimonial__title title__text">Best Clients</h3>
+      <h2 class="testimonial__title title__text">Testmonials</h2>
+
+      <!-- Section Content -->
+      <div class="testimonial__conteiner">
+
+        <div class="testimonial__box">
+          <div class="testimonial__box1">
+            <img class="avatar" src="./resources/avatar.jpg" alt="Foto Perfil testimonios">
+            <div class="testimonial__box2">
+              <p class="testimonial__name">John Doe</p>
+              <p class="testimonial__profesion"> Business Analyst</p>
+            </div>
+          </div>
+          <p class="testimonial__opinion">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus dolorem
+            aliquam laudantium
+            exercitationem possimus nulla.</p>
+        </div>
+
+        <div class="testimonial__box">
+
+          <div class="testimonial__box1">
+            <img class="avatar" src="./resources/avatar-1.jpg" alt="Foto Perfil testimonios">
+            <div class="testimonial__box2">
+              <p class="testimonial__name">Maria García</p>
+              <p class="testimonial__profesion"> Insurance Agent</p>
+            </div>
+          </div>
+          <p class="testimonial__opinion">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus dolorem
+            aliquam laudantium
+            exercitationem possimus nulla.</p>
+        </div>
+
+        <div class="testimonial__box">
+
+          <div class="testimonial__box1">
+            <img class="avatar" src="./resources/avatar-2.jpg" alt="Foto Perfil testimonios">
+            <div class="testimonial__box2">
+              <p class="testimonial__name">Mason Miller</p>
+              <p class="testimonial__profesion"> Residential Appraiser</p>
+            </div>
+          </div>
+          <p class="testimonial__opinion">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus dolorem
+            aliquam laudantium
+            exercitationem possimus nulla.</p>
+        </div>
+    </section>
+
+    <!-- Contacts Section-->
+    <section id="contact" class="contact">
+
+      <img class="contact__img" src="./resources/contact.jpg" alt="foto restaurante contacto">
+
+      <!-- Form -->
+      <div class="form__content">
+        <form action="">
+          <input class="contact__text" type="text" name="nombre" id="nombre" placeholder="    Your Name">
+          <input class="contact__text" type="tel" name="telefono" id="telefono" placeholder="    Your Phone">
+          <input class="contact__text" type="datetime-local" name="fecha" id="fecha" placeholder="">
+          <input class="contact__text" type="text" name="seats" id="seats" placeholder="    Seats">
+          <button class="button button-form" type="submit">Book A Table</button>
+        </form>
+        <h4 class="customer">We don't span customers. Check our<span><a class="contact__policy" href="#contact">Privacy
+              Policy</a></span>
+        </h4>
+      </div>
+    </section>
+  </main>
+
+  <!-- Web Footer -->
+  <footer id="footer" class="footer">
+
+    <!-- Footer Menu Top -->
+    <div class="footer__top-menu">
+      <img class="footer__logo" src="./resources/navbar-brand.svg" alt="logo menu inferior">
+
+      <nav class="footer__menu">
+        <ol>
+          <li><a class="footer__menu__text" href="#footer">Our Company</a></li>
+          <li><a class="footer__menu__text" href="#footer">Our Location</a></li>
+          <li><a class="footer__menu__text" href="#footer">Help Center</a></li>
+          <li><a class="footer__menu__text" href="#footer">Components</a></li>
+        </ol>
+      </nav>
+    </div>
+
+
+    <!-- Footer Menu Bot -->
+    <div class="footer__bot-menu">
+
+      <h4 class="footer__rights">&copy;2022, <span class="canon">C.Alberto Ortiz</span> All rights reserved</h4>
+
+      <ol class="footer__icon">
+        <li class="footer__link"><a href="https://es-es.facebook.com/"><img class="footer__redes icon"
+              src="./resources/redes-5.png" alt="facebook logo"></a></li>
+        <li class="footer__link"><a href="https://twitter.com/?lang=es"><img class="footer__redes icon"
+              src="./resources/redes-6.png" alt="twitter logo"></a></li>
+        <li class="footer__link"><a href="https://www.instagram.com/"><img class="footer__redes icon"
+              src="./resources/redes-7.png" alt="insta logo"></a></li>
+        <li class="footer__link"><a href="https://www.google.es/"><img class="footer__redes icon"
+              src="./resources/redes-8.png" alt="google plus logo"></a></li>
+      </ol>
+    </div>
+  </footer>
+</body>
+
+</html>

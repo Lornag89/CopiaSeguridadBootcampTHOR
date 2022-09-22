@@ -1,0 +1,141 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #ADAAA8;
+    display: grid;
+    grid-template-areas: "header header header header header"
+        "main main main aside aside"
+        "footer footer footer footer footer";
+    gap: 25px;
+    box-sizing: border-box;
+}
+
+:root {
+
+    --fondo-color: #E39373;
+    --fondo-color2: #F3F384;
+    --fondo-color3: #050403;
+    --fondo-color4: #626D4C;
+    --fuente-color: #fff;
+    --fuente-small: 25px;
+}
+
+.contenedor {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 25px;
+    border-radius: 10px;
+    background-color: var(--fondo-color);
+    box-shadow: 5px 5px 50px;
+}
+
+main {
+    background-color: var(--fondo-color);
+    grid-area: main;
+}
+
+aside {
+    background-color: var(--fondo-color);
+    grid-area: aside;
+}
+
+footer {
+    background-color: var(--fondo-color);
+    grid-area: footer;
+}
+
+/* encabezado */
+header {
+
+    background-color: var(--fondo-color);
+    grid-area: header;
+}
+
+nav.top {
+    background-color: var(--fondo-color3);
+}
+
+.menu-top {
+
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.menu-top__texto__ancla {
+    color: var(--fuente-color);
+}
+
+.menu-bottom {
+    display: flex;
+    gap: 50px;
+    justify-content: space-around;
+    background-image: url(https://img.freepik.com/foto-gratis/variedad-cactus-suculentas-decoracion-hogar_53876-134326.jpg?t=st=1655307562~exp=1655308162~hmac=22bfbca7ac2187dd8a79d9c6bd04c0e1f17c6d790b01ff679e14b6c24668d32f&w=1380);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    margin: 0;
+    padding: 0;
+    background-position: bottom;
+}
+
+.menu-bottom__texto {
+    width: 150px;
+    height: 30px;
+    border-radius: 20px;
+    background: var(--fondo-color4);
+    color: var(--fuente-color);
+    display: inline-block;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.menu-bottom__texto__ancla {
+    color: var(--fuente-color);
+
+}
+
+li {
+    display: inline-block;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.top {
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.bloque-logo {
+
+    position: relative;
+    left: 783px;
+}
+
+.relative {
+    position: relative;
+}
+
+.bloque__logo-titulo {
+
+    position: relative;
+    right: 48px;
+}
+
+.bloque-logo__img {
+    position: relative;
+    height: 100px;
+}
+
+.sombrero{
+    position: relative;
+    bottom:400px;
+    left: 520px;
+    width: 600px;
+    height: 400px;
+    border: solid 5px var(--fuente-color);
+}

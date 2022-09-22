@@ -1,0 +1,15 @@
+C:\prueba\Nueva carpeta\EjercicioLinqVentas\bin\Debug\net6.0\EjercicioLinqVentas.exe
+C:\prueba\Nueva carpeta\EjercicioLinqVentas\bin\Debug\net6.0\EjercicioLinqVentas.deps.json
+C:\prueba\Nueva carpeta\EjercicioLinqVentas\bin\Debug\net6.0\EjercicioLinqVentas.runtimeconfig.json
+C:\prueba\Nueva carpeta\EjercicioLinqVentas\bin\Debug\net6.0\EjercicioLinqVentas.dll
+C:\prueba\Nueva carpeta\EjercicioLinqVentas\bin\Debug\net6.0\EjercicioLinqVentas.pdb
+C:\prueba\Nueva carpeta\EjercicioLinqVentas\obj\Debug\net6.0\EjercicioLinqVentas.csproj.AssemblyReference.cache
+C:\prueba\Nueva carpeta\EjercicioLinqVentas\obj\Debug\net6.0\EjercicioLinqVentas.GeneratedMSBuildEditorConfig.editorconfig
+C:\prueba\Nueva carpeta\EjercicioLinqVentas\obj\Debug\net6.0\EjercicioLinqVentas.AssemblyInfoInputs.cache
+C:\prueba\Nueva carpeta\EjercicioLinqVentas\obj\Debug\net6.0\EjercicioLinqVentas.AssemblyInfo.cs
+C:\prueba\Nueva carpeta\EjercicioLinqVentas\obj\Debug\net6.0\EjercicioLinqVentas.csproj.CoreCompileInputs.cache
+C:\prueba\Nueva carpeta\EjercicioLinqVentas\obj\Debug\net6.0\EjercicioLinqVentas.dll
+C:\prueba\Nueva carpeta\EjercicioLinqVentas\obj\Debug\net6.0\refint\EjercicioLinqVentas.dll
+C:\prueba\Nueva carpeta\EjercicioLinqVentas\obj\Debug\net6.0\EjercicioLinqVentas.pdb
+C:\prueba\Nueva carpeta\EjercicioLinqVentas\obj\Debug\net6.0\EjercicioLinqVentas.genruntimeconfig.cache
+C:\prueba\Nueva carpeta\EjercicioLinqVentas\obj\Debug\net6.0\ref\EjercicioLinqVentas.dll

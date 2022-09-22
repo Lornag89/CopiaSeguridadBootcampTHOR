@@ -1,0 +1,139 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+
+    --fondo-color: #B2E373;
+    --fondo-logo-color: #c6716f;
+    --borde-color-logo: black;
+    --boton-borde-color: grey;
+    --boton-fondo-color: #6DB0BF;
+    --fuente-color: #fff;
+    --tamaño-small: 10px;
+    --tamaño-medio: 20px;
+    --tamaño-large: 40px;
+}
+
+
+.contenedor {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 25px;
+    border-radius: 10px;
+    background-color: var(--fondo-color);
+    box-shadow: 5px 5px 50px;
+}
+
+/* Encabezado */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 150px;
+    height: 180px;
+    margin: 20px;
+    border-radius: 5px;
+    border: solid var(--borde-color-logo);
+    background-color: var(--fondo-logo-color);
+}
+
+.logo__img {
+    margin: 10px;
+    width: 120px;
+    height: auto;
+    position: relative;
+    left: 5px;
+    bottom: 12px;
+}
+
+ol{
+    display: flex;
+    gap: 50px;
+    position: relative;
+    right: 100px;
+}
+
+li {
+    display: inline-block;
+    list-style: none;
+}
+
+/* Seccion 1 */
+.seccion-1 {
+    background-image: url(/Resources/fondo2.jpg);
+}
+
+.seccion-1__titulo {
+    text-align: center;
+    padding-top: 35px;
+    color: var(--fuente-color);
+}
+
+.seccion-1__texto {
+    color: var(--fuente-color);
+    margin: 25px;
+    padding-bottom: 50px;
+}
+
+/* seccion 2 */
+.bloque-articulos {
+    display: flex;
+    align-items: center;
+    vertical-align: top;
+}
+
+.seccion-2__titulo {
+    text-align: center;
+    padding-top: 25px;
+}
+
+.seccion-2__art__img {
+    width: 450px;
+    height: 300px;
+}
+
+.seccion-2__texto {
+    margin: 20px;
+}
+
+/* seccion 3 */
+.seccion-3__caja {
+    width: 200px;
+    height: 200px;
+    border: solid 5px var(--fondo-logo-color);
+}
+
+.seccion-3__titulo {
+
+    text-align: center;
+    padding-top: 25px;
+}
+
+.seccion-3__caja__x1 {
+    position: relative;
+    left: 188px
+}
+
+.seccion-3__caja__x2 {
+    position: relative;
+    top: 185px
+}
+
+.seccion-3__caja__x3 {
+    position: relative;
+    top: 90px;
+    right: 2px
+}
+
+.bloque__cajas {
+
+    display: flex;
+    justify-content: space-around;
+    padding: 25px 0;
+}

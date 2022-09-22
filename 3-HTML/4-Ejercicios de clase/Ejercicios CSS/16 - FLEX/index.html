@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- https://css-tricks.com/snippets/css/a-guide-to-flexbox/ 
+
+  https://pixabay.com/es/images/search/oficina/
+
+  https://www.freepik.es/search?format=search&query=logo
+  
+  https://www.pexels.com/es-es/
+
+  https://unsplash.com/-->
+
+
+</head>
+<style>
+
+  .contenedor {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      height: 500px;
+      background-color: blue;
+      justify-content: center;
+      align-items: center;
+      gap: 30px 15px;
+  }
+
+  .caja {
+    background-color: aquamarine;
+    border: 1px solid red;
+  }
+
+
+  .n1 {
+    /* order: 3; */
+    position: relative;
+    width: 300px;
+    height: 200px;
+  }
+
+  .n2 {
+    /* order: 1; */
+  }
+
+  /* .n3 {
+    /* order: 4; 
+    flex-shrink: 3;
+  } */
+  
+  .n4 {
+    /* order: 2; */
+  }
+
+  .content-iframe {
+    background-color: red;
+    margin: 50px;
+    padding: 50px;
+    display: flex;
+    gap: 80px
+  }
+
+  iframe {
+
+  }
+
+  .texto {
+    width: 300px;
+    height: 200px;
+    overflow: auto;
+  }
+</style>
+<body>
+  <div class="content-iframe">
+    <iframe id="inlineFrameExample"
+    title="Inline Frame Example"
+    width="50"
+    height="50"
+    src="https://www.openstreetmap.org/export/embed.html?bbox=-0.004017949104309083%2C51.47612752641776%2C0.00030577182769775396%2C51.478569861898606&layer=mapnik">
+    </iframe>
+    <p class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, nesciunt sapiente quis repellat minus officia debitis distinctio, fuga incidunt facilis nemo commodi. Ipsa dolorem magnam consequuntur odit reiciendis nemo aspernatur corrupti illo ipsum culpa dolore similique repellendus, perspiciatis hic assumenda repudiandae officia est necessitatibus unde fugiat, veritatis repellat doloribus voluptates. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit nulla ad id, asperiores quasi repellat non. Deleniti sint provident tempora alias suscipit, temporibus aperiam architecto mollitia eos incidunt, voluptates repudiandae harum pariatur eaque, quos recusandae reprehenderit blanditiis quae ipsam doloremque soluta. Adipisci, cumque perspiciatis! Exercitationem impedit, illum sint, nihil porro quisquam consequatur asperiores suscipit veniam autem aliquid placeat quae aliquam tenetur modi soluta sit esse eius consectetur omnis. Magnam inventore id suscipit impedit obcaecati, vero officiis accusamus expedita, sapiente dolor maxime hic aliquam beatae similique? Nobis expedita deleniti nesciunt? Aliquam veniam ducimus odio dolore ut sunt inventore molestias possimus consequatur rerum a, exercitationem perspiciatis nihil, commodi enim nisi molestiae voluptates illum earum quaerat similique eaque optio laboriosam suscipit? Totam earum, in veritatis a nobis reiciendis fugiat animi consectetur non modi, rerum, cum dolor dignissimos fuga expedita at. Animi, perspiciatis. Aut odio enim laborum minima numquam adipisci earum nobis, aspernatur molestiae, quos vel dolorem quas maiores dolores tenetur optio id illum mollitia sed corporis. Porro, voluptatum similique accusantium repudiandae vitae molestias id mollitia libero unde, omnis excepturi. Reiciendis, earum. Repellendus optio libero nostrum nisi dignissimos, iusto quae reiciendis, voluptate vel ea ipsa. Asperiores fugiat dolorem est enim veniam? Repellat eum necessitatibus commodi. Repudiandae, veritatis. Delectus possimus, esse odit asperiores placeat cumque accusantium rerum laudantium quo optio cum ratione natus quis cupiditate praesentium ea. Esse odit dolorem, dolores voluptatibus veritatis qui delectus magnam totam dolor iste, veniam iure aliquam asperiores rem aspernatur tenetur inventore? Eaque, cum nobis! Accusantium voluptatem laudantium ratione ab, facilis consequuntur rerum necessitatibus. Explicabo tempore id laudantium iste libero minima facilis! Distinctio architecto quam assumenda. Tenetur, ut. Ab fuga similique voluptate aspernatur. Commodi modi saepe animi quod illo totam, expedita nisi eos, voluptates enim architecto vel accusantium pariatur dignissimos tempore! Repellendus cupiditate ullam neque vel cumque corrupti. Minima, voluptates tenetur, eveniet, impedit fugit obcaecati corrupti doloremque quasi molestiae similique libero! Quo accusantium itaque aliquid dolorem impedit, consectetur quas ipsa delectus laudantium nam veniam dignissimos. Ducimus accusamus neque pariatur officiis cumque quam dolore. Veniam magni voluptas praesentium aliquid error eligendi provident repellendus, voluptates maxime rerum aliquam modi, impedit quo nisi dicta quasi nihil id sit nam corporis, placeat accusamus ipsam! Reiciendis minus ut iste non amet voluptas enim officia nobis ex nemo magnam harum labore, illo dolorem in culpa nesciunt doloremque odio eligendi consectetur sapiente? Possimus sapiente minus voluptatibus ratione expedita est quae porro, neque impedit distinctio quam, amet voluptates.</p>
+  </div>
+  <div class="contenedor">
+    <div class="caja n1"> 1 </div>
+    <div class="caja n2"> 2 </div>
+    <div class="caja n3"> 3 </div>
+    <div class="caja n4"> 4 </div>
+    <!-- <div class="caja n5"> 5 </div>
+    <div class="caja n6"> 6 </div>
+    <div class="caja n7"> 7 </div>
+    <div class="caja"> 8 </div>
+    <div class="caja"> 9 </div>
+    <div class="caja"> 10 </div>
+    <div class="caja"> 11 </div>
+    <div class="caja"> 12 </div> -->
+  </div>
+</body>
+</html>

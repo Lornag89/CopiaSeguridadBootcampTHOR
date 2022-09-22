@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<style>
+  .head,
+  .body {
+    width: 400px;
+    position: relative;
+    z-index: 3;
+  }
+
+  .head:hover + .tongue{
+    top: 40%;
+    transform: translateY(-71px);
+    transition: all 1s;
+  }
+
+  .body {
+    top:-138px;
+    z-index:1;
+  }
+
+  .tongue {
+    position: absolute;
+    width: 53px;
+    left: 30%;
+    top: 16%;
+    z-index: 2;
+    transition: all .4s;
+  }
+
+</style>
+<body>
+  
+  <div class="content-rana">
+    <img class="head" src="./resources/rana1.png" alt="cabeza de rana Ramona">
+    <img class="tongue" src="./resources/lengua.png" alt="lengua de la rana">
+    <img class="body" src="./resources/rana2.png" alt="">
+  </div>
+
+</body>
+</html>

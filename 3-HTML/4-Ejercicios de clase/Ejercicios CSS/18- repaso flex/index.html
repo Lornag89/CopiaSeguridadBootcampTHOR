@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<style>
+  .content {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: blanchedalmond;
+    padding: 40px 0;
+  }
+
+  .flex-start {
+    justify-content: flex-start;
+  }
+
+  .flex-end {
+    justify-content: flex-end;
+  }
+
+  .flex-center {
+    justify-content: center;
+  }
+
+  .flex-between {
+    justify-content: space-between;
+  }
+
+  .flex-around {
+    justify-content: space-around;
+  }
+  
+  .flex-evenly {
+    justify-content: space-evenly;
+  }
+
+  .caja {
+    background-color: aquamarine;
+    border: 1px solid red;
+    width: 50px;
+    height: 50px;
+  }
+
+  .c1 {
+    order: 4;
+  }
+
+  .c2 {
+    order: 2;
+  }
+
+  .c3 {
+    order: 1;
+  }
+
+  .c4 {
+    order:3;
+  }
+</style>
+
+<body>
+  <h2>flex-start</h2>
+  <div class="content flex-start">
+    <div class="caja c1">1</div>
+    <div class="caja c2">2</div>
+    <div class="caja c3">3</div>
+    <div class="caja c4">4</div>
+  </div>
+
+  <h2>flex-end</h2>
+  <div class="content flex-end">
+    <div class="caja">1</div>
+    <div class="caja">2</div>
+    <div class="caja">3</div>
+    <div class="caja">4</div>
+  </div>
+
+  <h2>center</h2>
+  <div class="content flex-center">
+    <div class="caja">1</div>
+    <div class="caja">2</div>
+    <div class="caja">3</div>
+    <div class="caja">4</div>
+  </div>
+
+  <h2>space-between</h2>
+  <div class="content flex-between">
+    <div class="caja">1</div>
+    <div class="caja">2</div>
+    <div class="caja">3</div>
+    <div class="caja">4</div>
+  </div>
+
+  <h2>space-around</h2>
+  <div class="content flex-around">
+    <div class="caja">1</div>
+    <div class="caja">2</div>
+    <div class="caja">3</div>
+    <div class="caja">4</div>
+  </div>
+
+  <h2>space evenly</h2>
+  <div class="content flex-evenly">
+    <div class="caja">1</div>
+    <div class="caja">2</div>
+    <div class="caja">3</div>
+    <div class="caja">4</div>
+  </div>
+</body>
+</html>

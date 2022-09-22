@@ -1,0 +1,32 @@
+/*
+Aquí podemos hacer comentarios en bloque
+*/
+
+
+// Esto es un comentario en línea
+
+// Las variables de CSS SÍ que se compilan
+:root {
+  --main-color: gold;
+}
+
+// Sass viene con unas variables que podemos escribir en cualquier lado
+$title-color: crimson;
+$title-size: 4rem;
+$border-color: crimson;
+$border-size: 2px;
+$border-style: solid;
+
+$my-border: 4px solid green;
+
+
+body {
+  background: var(--main-color);
+}
+
+/* Las variables de sass no se compilan, solo se compila el valor que tienen, no el nombre */
+h1 {
+  color: $title-color;
+  border: $border-size $border-style $border-color;
+  border: $my-border;
+}

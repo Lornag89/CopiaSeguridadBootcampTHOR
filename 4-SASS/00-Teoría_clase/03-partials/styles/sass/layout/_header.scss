@@ -1,0 +1,11 @@
+@use '../base/variables';
+
+nav {
+  background: white;
+  display: flex;
+  justify-content: space-evenly;
+  a {
+    color: variables.$principal; 
+    text-decoration: none;
+  }
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="icon" href="https://ivan-luengo.com/wp-content/uploads/2020/03/cropped-favicon-ivan_luengo-32x32.png">
+
+  <link rel="stylesheet" href="./src/styles/reset.css">
+  <link rel="stylesheet" href="./src/styles/style.css">
+  <title>Mi librería</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Mi librería</h1>
+    <form class="main-form">
+
+      <input type="text" name="bookTitle" placeholder="Título del libro...">  
+      <input type="text" name="bookAuthor" placeholder="Autor del libro...">  
+
+      <div class="read-input">
+        <input id="isRead" type="checkbox" name="isRead">
+        <label for="isRead">¿Leído?</label>
+      </div>
+
+      <button class="btn" name="add">Añadir</button>
+
+    </form>
+    <section class="book-section">
+      <h2>Mis libros:</h2>
+      <ul class="book-list">
+        <li class="book">
+          <span class="book__title">El perfume - </span>
+          <span class="read-icon">👍</span>
+          <span class="delete-icon">❌</span>
+        </li>
+        <li class="book">
+          <span class="book__title">1984 - </span>
+          <span class="read-icon">👎</span>
+          <span class="delete-icon">❌</span>
+        </li>
+      </ul>
+    </section>
+  </div>
+
+    
+  
+  <script src="./src/main2.js"></script>
+</body>
+</html>

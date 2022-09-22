@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iFrame y Cascada CSS</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<style>
+    .fondo1 {
+        background-color: red;
+        padding: 2px;
+    }
+
+    p.texto1 {
+        color: green;
+    }
+
+    p.texto2 {
+        color: orangered
+    }
+
+    p.texto3 {
+        color: brown;
+    }
+</style>
+
+<body>
+    <!-- Prueba de iFrame -->
+
+    <h2>iFrame</h2>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/s-6raOJs9hs" title="YouTube video player"
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+    </iframe>
+
+    <!-- Estilo en Linea-->
+    <h2>Estilo Linea</h2>
+    <div class="fondo1">
+        <p style="color:blue">Lorem ipsum dolor sit amet.</p>
+        <p style="color:orange">Lorem ipsum dolor sit amet.</p>
+        <p style="color:green">Lorem ipsum dolor sit amet.</p>
+    </div>
+
+
+    <!-- Style entre Head y Body -->
+    <h2>Style Head/body</h2>
+    <p class="texto1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis, blanditiis?</p>
+    <p class="texto2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis, blanditiis?</p>
+    <p class="texto3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis, blanditiis?</p>
+
+    <!-- Estilo Linkeado -->
+
+    <!-- Desde head siempre linkeamos archivos externos -->
+    <h2>Linke Externo</h2>
+    <div class="terceraforma">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, laboriosam!</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, laboriosam!</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, laboriosam!</p>
+        <p class="texto4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, minus.</p>
+
+
+    </div>
+</body>
+
+</html>

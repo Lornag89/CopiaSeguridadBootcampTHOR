@@ -1,0 +1,58 @@
+@use '../base/colors';
+@use '../base/variables';
+
+header {
+  background: colors.$primary-color;  
+  padding: variables.$padding 0px;
+
+  div.container {
+    display: flex;
+    align-items: center;
+
+    width: 80%;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+
+  figure.logo {
+    margin-right: 1rem;
+  }
+
+  nav.main-menu {
+    // margin-right: auto;
+    display: flex;
+    gap: 1rem;
+
+    a {
+      color: white;
+      text-decoration: none;
+      // margin-right: 1rem;
+
+      //* Opción 1
+      // &:last-child {
+      //   margin-right: 0;
+      // }
+
+      //* Opción 2
+      // &:not(:last-child) {
+      //   margin-right: 1rem;
+      // }
+      
+    }
+  }
+
+  form.search {
+    margin-left: auto;
+
+    input {
+      padding: 0.5rem 1rem;
+      border: none;
+    }
+
+    button {
+      background-color: colors.$aside-color;
+      border: none;
+      padding: 0.5rem 1rem;
+    }
+  }
+}

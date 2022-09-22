@@ -1,0 +1,213 @@
+/* Ajustes Comunes */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedor {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 25px;
+    border-radius: 10px;
+    background-color: #C8A765;
+    box-shadow: 5px 5px 50px;
+}
+
+/* tipo fuente */
+.texto--sans {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.texto--fasc {
+    font-family: 'Fascinate', cursive;
+}
+
+.texto--dance {
+    font-family: 'Dancing Script', cursive;
+    font-size: 35px;
+}
+
+/* Ajustes Body */
+body {
+    background-color: #88D0A5;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #fff;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 150px;
+    border-radius: 10px;
+    background-color: #C8A765;
+    box-shadow: 5px 5px 50px;
+}
+
+/* Ajuste Logo Y texto */
+.logo {
+    width: 150px;
+    height: 180px;
+    margin: 20px;
+    border-radius: 5px;
+    border: solid black;
+    background-color: #C6716F;
+}
+
+.logo__img {
+    padding-left: 25px;
+    margin: 10px;
+    display: inline-block;
+    height: 115px;
+}
+
+.logo__texto {
+    text-align: center;
+    padding-bottom: 252px;
+    font-size: 17px;
+    color: white;
+    -webkit-text-stroke: 1px black;
+}
+
+/* Ajuste Menu */
+nav {
+    display: inline-block;
+    padding-left: 100px;
+}
+
+.menu__ancla {
+    padding: 5px 30px;
+    margin: 50px;
+    background: #6DB0BF;
+    color: #fff;
+    border-radius: 100px;
+    border: outset gray;
+}
+
+/* Botones Redes */
+.bloque-redes__icon__img {
+    width: 30px;
+    height: 30px;
+}
+
+.bloque-redes {
+    padding: 0 0 140px 140px;
+}
+
+/* CONTENIDO */
+
+/* Ajuste tamaño Imagenes */
+.seccion-1__fig__img {
+    width: 300px;
+    height: 300px;
+    margin: 30px;
+    float: right;
+}
+
+.articulos__link__img {
+    width: 300px;
+    height: 300px;
+}
+
+/* seccion 1 */
+.seccion-1 {
+    align-items: center;
+    display: inline-block;
+    margin: 120px;
+}
+
+.seccion-1__titulo {
+    font-size: 50px;
+    text-align: center;
+
+}
+
+.seccion-1__texto {
+    margin: 10px;
+    font-size: 20px;
+}
+
+/* Ajuste articulos */
+.articulos {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.articulos__link {
+    padding: 0 100px;
+    margin: 50px;
+}
+
+.articulos__link__texto {
+    margin: 25px;
+    color: black;
+}
+
+/* seccion 2 y formulario */
+.titulo-seccion-2 {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.seccion-2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+
+.seccion-2__texto {
+    margin: 50px 0 0 100px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.seccion-2__form {
+    display: inline;
+    margin: 0 300px;
+    text-transform: capitalize;
+}
+
+.seccion-2__titulo {
+    margin: 15px;
+    font-size: 35px;
+    text-align: center;
+}
+
+.boton {
+    margin-top: 15px;
+}
+
+/* boton volver */
+.seccion-2__volver {
+    padding: 600px 50px 0 0;
+}
+
+.seccion-2__volver__img {
+    width: 30px;
+    height: 30px;
+}
+
+/* pie de web */
+
+footer {
+    padding: 15px 100px;
+}
+
+.footer-texto {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.footer-texto__smal {
+    text-align: center;
+}

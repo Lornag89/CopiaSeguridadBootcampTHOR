@@ -1,0 +1,9 @@
+@use '../base/colors';
+@use '../base/variables';
+
+footer{
+    text-align: center;
+    background-color: colors.$grey;
+    color: colors.$white;
+
+}

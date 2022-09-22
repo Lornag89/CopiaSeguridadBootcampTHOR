@@ -1,0 +1,21 @@
+@use 'base/reset';
+@use 'layout/header';
+
+//  cuando utilizamos @use, se crea un "nombre de espacio" (namespace) que será el que tenemos que utilizar para llamar a las variables de dentro de un archivo
+@use 'base/variables';
+
+// también podemos usar un ALIAS para ponerle el "nombre de espacio" que nos dé la gana usando --> as
+@use 'base/fuentes' as f;
+
+// por último podemos eliminar el "namespace" de un archivo usando como alias un asterisco
+@use 'base/colors' as *;
+
+
+body {
+  background: variables.$principal;
+}
+
+h1 {
+  font-family: f.$principal;
+  color: $yellow;
+}

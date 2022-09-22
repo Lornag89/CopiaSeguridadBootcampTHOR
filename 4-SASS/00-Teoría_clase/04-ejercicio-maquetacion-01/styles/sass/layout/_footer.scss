@@ -1,0 +1,10 @@
+@use '../base/colors';
+@use '../base/variables';
+
+footer {
+  margin-top: variables.$big-gap;
+  text-align: center;
+  background: colors.$gray;
+  color: colors.$white;
+  padding: variables.$padding;
+}

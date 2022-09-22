@@ -1,0 +1,88 @@
+/* Estilos header */
+
+.logo {
+  width: 50px;
+  height: auto;
+}
+
+.menu {
+  display: inline-block;
+}
+
+.menu li {
+  display: inline-block;
+  padding: 0 10px;
+}
+
+.menu li a {
+  text-decoration: none;
+}
+
+
+/* estilos contenido */
+
+.productos {
+  background-color: antiquewhite;
+  padding: 50px;
+}
+
+.productos .box {
+  width: 100px;
+  height: 100px;
+  background-color: aqua;
+  border: 1px solid red;
+  display: inline-block;
+}
+
+.productos .box-special {
+  background-color: blueviolet;
+}
+
+.servicios {
+  background-color: azure;
+  padding: 50px;
+}
+
+.servicios .custom {
+  font-size: 24px;
+  color: brown;
+}
+
+.contacto {
+  background-color: thistle;
+  padding: 50px;
+}
+
+.contacto iframe {
+  opacity: 50%;
+}
+
+.tablas {
+  background-color: antiquewhite;
+  padding: 50px;
+}
+
+.tablas .tablita {
+  width: 600px;
+  height: 400px;
+}
+
+.tablas .tablita,
+.tablas .tablita tr,
+.tablas .tablita td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.tablas .tablita td {
+  padding: 10px;
+}
+
+/* estilos pie de página */
+
+footer .txt-footer {
+  font-size: 40px;
+  color: chartreuse;
+  font-weight: 900;
+  text-align: center;
+}

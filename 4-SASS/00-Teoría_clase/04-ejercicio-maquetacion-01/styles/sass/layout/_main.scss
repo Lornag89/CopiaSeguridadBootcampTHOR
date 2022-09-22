@@ -1,0 +1,112 @@
+@use '../base/variables';
+@use '../base/colors';
+
+main {
+  width: 80%;
+  max-width: 1100px;
+  margin: 0 auto;
+  margin-top: variables.$big-gap;
+  display: flex;
+  gap: variables.$big-gap;
+
+  div.left-side {
+    flex: 2;
+
+    section.welcome {
+      background-color: colors.$welcome-color;
+      padding: variables.$padding;
+
+      h1.welcome__title {
+        text-align: center;
+        margin-bottom: 1rem;
+      }
+
+      div.welcome__content {
+        display: flex;        
+        // align-items: center;
+        gap: 0.8rem;
+      }
+
+      img {
+        // Esta propiedad evita que las fotos se deformen, lo que hace es recortarlas como si fueran un background image.
+        object-fit: cover;
+      }
+    }
+
+    section.news-section {
+      margin: variables.$small-gap 0px;
+      display: flex;
+      gap: variables.$small-gap;
+
+
+      article.news {
+        background-color: colors.$secondary-color;
+        padding: variables.$padding;
+        text-align: center;
+      }
+
+      h2 {
+        margin-bottom: 0.8rem;
+      }
+
+      i.icon {
+        font-size: 3rem;        
+      }
+    }
+
+    section.banner {
+      background-color: colors.$dark;
+      color: colors.$white;
+      text-align: center;
+      padding: variables.$padding;
+    }
+
+  }
+
+
+  aside.right-side {
+    background-color: colors.$aside-color;
+    flex: 1;
+    text-align: center;
+    padding: variables.$padding;
+
+    h2 {
+      margin-bottom: 1rem;
+    }
+
+    nav.aside-menu {
+      display: flex;
+      flex-direction: column;  
+      margin-bottom: 1rem;    
+
+      a {
+        padding: 0.5rem 0;
+        color: colors.$dark;
+        text-decoration: none;
+        border-bottom: 1px solid colors.$dark;
+        &:last-child {
+          border-bottom: none;
+        }
+      }
+
+      
+    }
+    
+    div.rrss {     
+      display: flex;
+      justify-content: space-evenly;
+      
+    }
+
+    div.rrss i {
+      font-size: 1.1rem;
+
+      &:hover {
+        transform: scale(1.5);
+      }
+    }
+
+
+  }
+
+}

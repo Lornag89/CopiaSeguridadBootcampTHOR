@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/styles/css/style.css" />
+    <title>Movies APP</title>
+</head>
+
+<body>
+    <header class="bg-warning text-center p-2">
+        <h1 class="m-0 fw-bold">Mis películas</h1>
+    </header>
+
+    <main class="container">
+        
+        <form class="main-form row mt-4 g-4">
+            <div class="col-4">
+                <input class="form-control" type="text" name="movieTitle" placeholder="Película..." />
+            </div>
+
+            <div class="col-3">
+                <select class="form-select" name="movieGenre">
+                    <option value="">Género...</option>
+                    <option value="Aventura">Aventuras</option>
+                    <option value="Acción">Acción</option>
+                    <option value="Drama">Drama</option>
+                    <option value="Comedia">Comedia</option>
+                    <option value="Fantasía">Fantasía</option>
+                    <option value="Terror">Terror</option>
+                </select>
+            </div>
+
+            <div class="col-2 text-center">
+                <label class="form-check-label" for="isSeen">¿Vista?</label>
+                <input class="form-check-input" id="isSeen" type="checkbox" name="movieIsSeen" />
+            </div>
+
+            <div class="col-3">
+                <button class="btn btn-info text-light w-100" name="add">
+                    Añadir
+                </button>
+            </div>
+        </form>
+
+        <section class="movie-list mt-3 border border-2 border-dark rounded p-3">
+            <article class="movie d-flex align-items-center rounded px-2 py-1">
+                <h2 class="movie__tittle fs-5 mb-0 me-2">Harry Potter</h2>
+                <span class="movie__genre badge text-bg-adventure me-auto">Aventuras</span>
+                <i class="icon isSeen-icon bi bi-eye-slash fs-3 text-info me-2"></i>
+                <i class="icon delete-icon bi bi-trash fs-3 text-danger"></i>
+            </article>
+            <article class="movie d-flex align-items-center rounded px-2 py-1">
+                <h2 class="movie__tittle fs-5 mb-0 me-2">Robocop</h2>
+                <span class="movie__genre badge text-bg-action me-auto">Acción</span>
+                <i class="icon isSeen-icon bi bi-eye fs-3 text-primary me-2"></i>
+                <i class="icon delete-icon bi bi-trash fs-3 text-danger"></i>
+            </article>
+        </section>
+    </main>
+
+    <footer></footer>
+    <script type="module" src="./src/main.js"></script>
+</body>
+
+</html>

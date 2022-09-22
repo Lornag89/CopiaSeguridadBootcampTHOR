@@ -1,0 +1,65 @@
+body{
+    background-color: aliceblue;
+}
+
+/* Cuadro origen */
+.contenedor-origen {
+    width:100px;
+    height: 100px;
+    background-color: orange;
+    border: solid 5px black;
+}
+
+.contenedor-origen:hover {
+
+    width: 300px;
+    height: 300px;
+}
+
+/* Transition-property */
+.contenedor {
+    width:100px;
+    height: 100px;
+    background-color: orange;
+    border: solid 5px black;
+    transition: width 2s, height 4s;
+}
+
+.contenedor:hover {
+    width: 300px;
+    height: 300px;
+}
+
+/* Delay */
+.contenedor1 {
+    width:100px;
+    height: 100px;
+    background-color: orange;
+    border: solid 5px black;
+    transition: width 2s, height 4s;
+    transition-delay: 2s;
+}
+
+.contenedor1:hover {
+    width: 300px;
+    height: 300px;
+}
+
+/* Transition+Transformation */
+.contenedor2 {
+    width:100px;
+    height: 100px;
+    background-color: orange;
+    border: solid 5px black;
+    transition: width 2s, height 4s, transform 2s;
+}
+
+.contenedor2:hover {
+    width: 300px;
+    height: 300px;
+    transform: rotate(180deg);
+}
+
+
+
+

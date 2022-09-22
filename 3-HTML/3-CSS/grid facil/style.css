@@ -1,0 +1,30 @@
+body{
+
+    background-color: aliceblue;
+    display: grid;
+    grid-template-areas: "header header header header"
+    "main main main aside"
+    "footer footer footer footer";
+    gap: 30px;
+}
+
+header{
+    background-color: purple;
+    grid-area: header;
+}
+
+main{
+    background-color: peru;
+    grid-area: main;
+}
+
+aside{
+    background-color: palegoldenrod;
+    grid-area: aside;
+}
+
+footer{
+    background-color: aqua;
+    grid-area: footer;
+}
+

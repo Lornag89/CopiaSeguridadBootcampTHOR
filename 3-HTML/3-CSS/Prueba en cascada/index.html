@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba En Cascada CSS</title>
+</head>
+
+<!-- Estilo en cascada que se va leyendo de arriba hacia abajo -->
+
+<style>
+    body {
+        background-color: blueviolet;
+    }
+
+    p {
+        color: blue;
+    }
+
+    p {
+        color: red;
+    }
+</style>
+
+<body>
+    <p>gfgsdfgsdfgd</p>
+    <p>gsdfgdfsgsfdgsdf</p>
+    <p>gafsdgsdfgsdfg</p>
+
+    <br><br><br>
+
+    <!-- Ejemplo antiguo de Style  en etiqueta (NO USAR)-->
+    <h2>NO SE USA MODO ANTIGUO Estilo en linea</h2>
+<p style="color: red ;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo, laborum?
+        <p style="color:blue">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, repellat.
+        <p style="color:blueviolet">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, enim?</p>
+        </p>
+    </p>
+
+    <br><br><br>
+
+    <!-- Segunda Forma -->
+
+    <h2>Segunda forma que si se usa</h2>
+
+    <p class="texto">fsadfsafasd</p>
+    <p class="texto">fgdgsdfgsdf</p>
+    <p class="texto">dsgsdfgsdf</p>
+
+    <!-- tercera Forma -->
+    <!-- linkeamos styles desde archivo externo -->
+
+    <h2>tercera forma si se usa linkeando de manera externa los estilos</h2>
+
+    <p>Falta Fichero por enlazar</p>
+
+    <div class="productos">
+        <p>fdgsfgsd</p>
+        <p>dfsgsfdgs</p>
+        <p>gfdsfgsdfgds</p>
+    </div>
+
+</body>
+
+</html>

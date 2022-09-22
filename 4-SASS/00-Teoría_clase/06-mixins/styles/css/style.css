@@ -1,0 +1,40 @@
+.padre {
+  background-color: gold;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 7px solid green;
+}
+@media (min-width: 500px) {
+  .padre {
+    align-items: flex-start;
+  }
+}
+.padre .hijo {
+  height: 50px;
+  width: 50px;
+  background-color: crimson;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid lightseagreen;
+}
+@media (min-width: 500px) {
+  .padre .hijo {
+    align-items: flex-end;
+  }
+}
+.padre .hijo .nieto {
+  height: 20px;
+  width: 20px;
+  background-color: #fff;
+  border: 2px solid black;
+}
+@media (min-width: 500px) {
+  .padre .hijo .nieto {
+    background-color: lightskyblue;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
